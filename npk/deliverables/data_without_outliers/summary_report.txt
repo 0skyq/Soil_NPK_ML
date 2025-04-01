@@ -1,0 +1,1547 @@
+NPK Data Cleaning and Analysis Summary Report
+============================================================
+
+
+Folder: Itala_afterChange
+----------------------------------------
+  Density 100:
+    1.txt: 774/779 valid rows
+      Averages (after outlier removal): Value1=69.02 Value2=40.30 Value3=31.55 Value4=540.73 Value5=41.00 Value6=854.97 
+    2.txt: 698/702 valid rows
+      Averages (after outlier removal): Value1=69.40 Value2=39.93 Value3=31.37 Value4=540.17 Value5=41.17 Value6=853.93 
+    3.txt: 622/625 valid rows
+      Averages (after outlier removal): Value1=70.14 Value2=42.30 Value3=30.44 Value4=541.32 Value5=41.27 Value6=850.69 
+    4.txt: 610/613 valid rows
+      Averages (after outlier removal): Value1=70.58 Value2=41.90 Value3=30.76 Value4=540.96 Value5=41.06 Value6=854.66 
+    5.txt: 635/639 valid rows
+      Averages (after outlier removal): Value1=70.68 Value2=41.58 Value3=30.78 Value4=539.74 Value5=41.37 Value6=854.05 
+    6.txt: 466/469 valid rows
+      Averages (after outlier removal): Value1=70.33 Value2=40.89 Value3=30.58 Value4=540.56 Value5=41.38 Value6=854.02 
+    Density 100 Averages: Value1=70.02 Value2=41.15 Value3=30.91 Value4=540.58 Value5=41.21 Value6=853.72 
+  Density 120:
+    1.txt: 656/660 valid rows
+      Averages (after outlier removal): Value1=70.69 Value2=41.75 Value3=30.71 Value4=550.67 Value5=43.26 Value6=855.33 
+    2.txt: 669/671 valid rows
+      Averages (after outlier removal): Value1=70.84 Value2=42.83 Value3=30.68 Value4=548.32 Value5=43.27 Value6=855.24 
+    3.txt: 657/660 valid rows
+      Averages (after outlier removal): Value1=71.43 Value2=41.36 Value3=30.79 Value4=546.92 Value5=43.70 Value6=855.38 
+    4.txt: 670/673 valid rows
+      Averages (after outlier removal): Value1=71.21 Value2=41.18 Value3=30.75 Value4=548.87 Value5=43.70 Value6=855.46 
+    5.txt: 664/668 valid rows
+      Averages (after outlier removal): Value1=71.00 Value2=41.55 Value3=30.37 Value4=549.06 Value5=43.49 Value6=855.35 
+    6.txt: 686/689 valid rows
+      Averages (after outlier removal): Value1=71.14 Value2=41.80 Value3=30.95 Value4=551.79 Value5=43.79 Value6=855.28 
+    Density 120 Averages: Value1=71.05 Value2=41.74 Value3=30.71 Value4=549.27 Value5=43.53 Value6=855.34 
+  Density 140:
+    1.txt: 703/707 valid rows
+      Averages (after outlier removal): Value1=71.76 Value2=40.06 Value3=29.89 Value4=552.46 Value5=44.14 Value6=854.51 
+    2.txt: 716/719 valid rows
+      Averages (after outlier removal): Value1=71.67 Value2=40.05 Value3=29.84 Value4=553.18 Value5=44.17 Value6=854.54 
+    3.txt: 632/636 valid rows
+      Averages (after outlier removal): Value1=72.47 Value2=41.06 Value3=29.94 Value4=549.99 Value5=45.10 Value6=854.80 
+    4.txt: 658/661 valid rows
+      Averages (after outlier removal): Value1=72.31 Value2=40.91 Value3=29.86 Value4=548.00 Value5=45.47 Value6=854.77 
+    5.txt: 663/669 valid rows
+      Averages (after outlier removal): Value1=72.00 Value2=40.93 Value3=29.27 Value4=548.15 Value5=45.53 Value6=854.79 
+    6.txt: 744/748 valid rows
+      Averages (after outlier removal): Value1=71.69 Value2=40.74 Value3=29.18 Value4=548.09 Value5=45.73 Value6=854.61 
+    Density 140 Averages: Value1=71.98 Value2=40.63 Value3=29.67 Value4=549.98 Value5=45.02 Value6=854.67 
+  Density 160:
+    1.txt: 731/735 valid rows
+      Averages (after outlier removal): Value1=74.21 Value2=42.91 Value3=29.98 Value4=557.73 Value5=47.00 Value6=836.52 
+    2.txt: 661/665 valid rows
+      Averages (after outlier removal): Value1=74.43 Value2=42.89 Value3=29.96 Value4=559.41 Value5=47.23 Value6=838.49 
+    3.txt: 723/728 valid rows
+      Averages (after outlier removal): Value1=74.77 Value2=43.05 Value3=29.85 Value4=562.84 Value5=47.24 Value6=838.80 
+    4.txt: 654/658 valid rows
+      Averages (after outlier removal): Value1=74.55 Value2=42.82 Value3=29.89 Value4=561.51 Value5=47.38 Value6=839.87 
+    5.txt: 695/700 valid rows
+      Averages (after outlier removal): Value1=74.46 Value2=42.85 Value3=29.83 Value4=562.78 Value5=47.29 Value6=840.72 
+    6.txt: 660/664 valid rows
+      Averages (after outlier removal): Value1=74.50 Value2=43.02 Value3=29.96 Value4=561.52 Value5=47.31 Value6=840.86 
+    Density 160 Averages: Value1=74.49 Value2=42.92 Value3=29.91 Value4=560.96 Value5=47.24 Value6=839.21 
+  Density 180:
+    1.txt: 742/746 valid rows
+      Averages (after outlier removal): Value1=75.52 Value2=45.13 Value3=27.30 Value4=577.68 Value5=47.38 Value6=844.88 
+    2.txt: 626/629 valid rows
+      Averages (after outlier removal): Value1=75.68 Value2=45.71 Value3=27.50 Value4=578.82 Value5=47.41 Value6=844.87 
+    3.txt: 629/633 valid rows
+      Averages (after outlier removal): Value1=75.88 Value2=45.52 Value3=27.53 Value4=577.85 Value5=47.43 Value6=844.86 
+    4.txt: 671/674 valid rows
+      Averages (after outlier removal): Value1=76.00 Value2=45.41 Value3=28.63 Value4=576.33 Value5=47.31 Value6=844.92 
+    5.txt: 652/656 valid rows
+      Averages (after outlier removal): Value1=76.00 Value2=46.08 Value3=28.46 Value4=576.96 Value5=47.53 Value6=844.86 
+    6.txt: 658/663 valid rows
+      Averages (after outlier removal): Value1=76.00 Value2=45.59 Value3=27.84 Value4=576.19 Value5=47.71 Value6=844.87 
+    Density 180 Averages: Value1=75.85 Value2=45.57 Value3=27.87 Value4=577.30 Value5=47.46 Value6=844.88 
+  Density 200:
+    1.txt: 623/627 valid rows
+      Averages (after outlier removal): Value1=75.45 Value2=47.05 Value3=29.81 Value4=587.80 Value5=48.00 Value6=845.02 
+    2.txt: 658/662 valid rows
+      Averages (after outlier removal): Value1=75.45 Value2=47.78 Value3=30.23 Value4=585.00 Value5=48.00 Value6=845.00 
+    3.txt: 721/724 valid rows
+      Averages (after outlier removal): Value1=75.52 Value2=49.99 Value3=29.91 Value4=585.50 Value5=47.94 Value6=843.91 
+    4.txt: 644/646 valid rows
+      Averages (after outlier removal): Value1=75.50 Value2=49.79 Value3=30.00 Value4=585.03 Value5=47.87 Value6=844.97 
+    5.txt: 632/635 valid rows
+      Averages (after outlier removal): Value1=75.00 Value2=49.22 Value3=30.10 Value4=580.92 Value5=47.92 Value6=844.97 
+    6.txt: 749/752 valid rows
+      Averages (after outlier removal): Value1=75.00 Value2=48.55 Value3=30.21 Value4=582.23 Value5=48.00 Value6=844.92 
+    Density 200 Averages: Value1=75.32 Value2=48.73 Value3=30.04 Value4=584.42 Value5=47.96 Value6=844.80 
+  Density 220:
+    1.txt: 840/844 valid rows
+      Averages (after outlier removal): Value1=75.55 Value2=49.01 Value3=30.47 Value4=584.42 Value5=48.00 Value6=845.04 
+    2.txt: 625/628 valid rows
+      Averages (after outlier removal): Value1=75.62 Value2=49.14 Value3=30.46 Value4=586.74 Value5=48.00 Value6=845.03 
+    3.txt: 649/652 valid rows
+      Averages (after outlier removal): Value1=75.76 Value2=45.14 Value3=30.48 Value4=589.21 Value5=48.00 Value6=844.96 
+    4.txt: 631/637 valid rows
+      Averages (after outlier removal): Value1=75.80 Value2=45.09 Value3=30.64 Value4=587.58 Value5=48.00 Value6=844.96 
+    5.txt: 643/647 valid rows
+      Averages (after outlier removal): Value1=75.85 Value2=44.42 Value3=30.09 Value4=584.92 Value5=48.00 Value6=844.95 
+    6.txt: 626/630 valid rows
+      Averages (after outlier removal): Value1=75.90 Value2=43.72 Value3=30.15 Value4=581.98 Value5=48.12 Value6=844.83 
+    Density 220 Averages: Value1=75.75 Value2=46.09 Value3=30.38 Value4=585.81 Value5=48.02 Value6=844.96 
+  Density 240:
+    1.txt: 740/745 valid rows
+      Averages (after outlier removal): Value1=76.63 Value2=49.82 Value3=30.50 Value4=601.74 Value5=48.53 Value6=842.93 
+    2.txt: 658/660 valid rows
+      Averages (after outlier removal): Value1=76.61 Value2=49.79 Value3=30.76 Value4=599.07 Value5=48.52 Value6=842.66 
+    3.txt: 652/655 valid rows
+      Averages (after outlier removal): Value1=76.92 Value2=49.84 Value3=28.80 Value4=602.74 Value5=48.88 Value6=842.53 
+    4.txt: 813/818 valid rows
+      Averages (after outlier removal): Value1=77.00 Value2=50.14 Value3=28.50 Value4=604.57 Value5=49.00 Value6=843.79 
+    5.txt: 665/669 valid rows
+      Averages (after outlier removal): Value1=77.00 Value2=49.90 Value3=28.40 Value4=602.25 Value5=49.07 Value6=844.00 
+    6.txt: 715/719 valid rows
+      Averages (after outlier removal): Value1=77.00 Value2=50.41 Value3=28.39 Value4=603.15 Value5=49.00 Value6=844.08 
+    Density 240 Averages: Value1=76.86 Value2=49.98 Value3=29.23 Value4=602.25 Value5=48.83 Value6=843.33 
+  Density 60:
+    1.txt: 698/701 valid rows
+      Averages (after outlier removal): Value1=65.90 Value2=31.85 Value3=29.01 Value4=527.93 Value5=42.83 Value6=845.76 
+    2.txt: 753/756 valid rows
+      Averages (after outlier removal): Value1=65.88 Value2=32.54 Value3=29.26 Value4=526.89 Value5=42.81 Value6=842.67 
+    3.txt: 592/594 valid rows
+      Averages (after outlier removal): Value1=65.97 Value2=32.75 Value3=28.26 Value4=526.96 Value5=42.82 Value6=840.85 
+    4.txt: 657/660 valid rows
+      Averages (after outlier removal): Value1=65.76 Value2=32.89 Value3=28.16 Value4=522.61 Value5=42.61 Value6=844.07 
+    5.txt: 642/646 valid rows
+      Averages (after outlier removal): Value1=66.01 Value2=32.42 Value3=28.80 Value4=526.37 Value5=42.71 Value6=840.71 
+    6.txt: 1503/1506 valid rows
+      Averages (after outlier removal): Value1=65.80 Value2=32.88 Value3=29.06 Value4=528.28 Value5=42.87 Value6=841.65 
+    Density 60 Averages: Value1=65.89 Value2=32.56 Value3=28.76 Value4=526.51 Value5=42.77 Value6=842.62 
+  Density 80:
+    1.txt: 765/769 valid rows
+      Averages (after outlier removal): Value1=68.75 Value2=31.98 Value3=29.44 Value4=532.35 Value5=41.98 Value6=850.49 
+    2.txt: 718/722 valid rows
+      Averages (after outlier removal): Value1=68.62 Value2=33.19 Value3=29.12 Value4=533.86 Value5=41.86 Value6=849.16 
+    3.txt: 1428/1432 valid rows
+      Averages (after outlier removal): Value1=68.64 Value2=34.93 Value3=29.61 Value4=534.15 Value5=41.15 Value6=850.52 
+    4.txt: 1218/1224 valid rows
+      Averages (after outlier removal): Value1=68.35 Value2=35.37 Value3=29.58 Value4=535.58 Value5=41.34 Value6=847.34 
+    5.txt: 685/688 valid rows
+      Averages (after outlier removal): Value1=68.18 Value2=35.39 Value3=29.74 Value4=533.77 Value5=40.94 Value6=850.70 
+    6.txt: 864/867 valid rows
+      Averages (after outlier removal): Value1=68.51 Value2=35.42 Value3=29.32 Value4=535.83 Value5=41.00 Value6=847.63 
+    Density 80 Averages: Value1=68.51 Value2=34.38 Value3=29.47 Value4=534.26 Value5=41.38 Value6=849.31 
+
+  Itala_afterChange Summary: 60 files processed
+  Itala_afterChange Overall Averages: Value1=72.57 Value2=42.38 Value3=29.70 Value4=561.13 Value5=45.34 Value6=847.28 
+
+Folder: jintur 1
+----------------------------------------
+  Density 100:
+    1.txt: 1148/1151 valid rows
+      Averages (after outlier removal): Value1=33.61 Value2=36.28 Value3=13.34 Value4=558.96 Value5=21.07 Value6=853.16 
+    2.txt: 627/628 valid rows
+      Averages (after outlier removal): Value1=33.67 Value2=35.66 Value3=13.43 Value4=559.24 Value5=21.09 Value6=851.37 
+    3.txt: 909/911 valid rows
+      Averages (after outlier removal): Value1=33.68 Value2=36.47 Value3=13.37 Value4=560.24 Value5=21.10 Value6=851.04 
+    4.txt: 762/763 valid rows
+      Averages (after outlier removal): Value1=33.72 Value2=35.99 Value3=13.42 Value4=562.42 Value5=21.10 Value6=850.39 
+    5.txt: 770/772 valid rows
+      Averages (after outlier removal): Value1=33.73 Value2=36.14 Value3=13.44 Value4=562.71 Value5=21.17 Value6=850.31 
+    6.txt: 1016/1018 valid rows
+      Averages (after outlier removal): Value1=33.81 Value2=36.45 Value3=13.41 Value4=562.87 Value5=21.14 Value6=849.38 
+    Density 100 Averages: Value1=33.70 Value2=36.17 Value3=13.40 Value4=561.07 Value5=21.11 Value6=850.94 
+  Density 120:
+    1.txt: 1146/1149 valid rows
+      Averages (after outlier removal): Value1=33.64 Value2=37.46 Value3=12.94 Value4=572.28 Value5=20.84 Value6=857.00 
+    2.txt: 806/808 valid rows
+      Averages (after outlier removal): Value1=33.42 Value2=37.29 Value3=12.99 Value4=572.79 Value5=20.82 Value6=856.96 
+    3.txt: 869/870 valid rows
+      Averages (after outlier removal): Value1=33.40 Value2=37.17 Value3=13.00 Value4=573.28 Value5=20.81 Value6=856.95 
+    4.txt: 839/840 valid rows
+      Averages (after outlier removal): Value1=33.38 Value2=37.68 Value3=13.45 Value4=570.61 Value5=20.76 Value6=857.03 
+    5.txt: 870/871 valid rows
+      Averages (after outlier removal): Value1=33.50 Value2=37.73 Value3=13.33 Value4=571.65 Value5=20.80 Value6=857.01 
+    6.txt: 798/799 valid rows
+      Averages (after outlier removal): Value1=33.47 Value2=37.83 Value3=13.39 Value4=572.91 Value5=20.79 Value6=857.17 
+    Density 120 Averages: Value1=33.47 Value2=37.53 Value3=13.18 Value4=572.25 Value5=20.80 Value6=857.02 
+  Density 140:
+    1.txt: 955/958 valid rows
+      Averages (after outlier removal): Value1=34.37 Value2=42.97 Value3=13.29 Value4=582.87 Value5=20.50 Value6=856.35 
+    2.txt: 1042/1044 valid rows
+      Averages (after outlier removal): Value1=66.60 Value2=113.19 Value3=13.21 Value4=584.22 Value5=20.52 Value6=856.54 
+    3.txt: 2212/2217 valid rows
+      Averages (after outlier removal): Value1=69.04 Value2=121.88 Value3=12.98 Value4=585.50 Value5=20.56 Value6=858.58 
+    4.txt: 1100/1106 valid rows
+      Averages (after outlier removal): Value1=71.29 Value2=120.86 Value3=12.65 Value4=580.53 Value5=20.57 Value6=858.76 
+    5.txt: 656/660 valid rows
+      Averages (after outlier removal): Value1=63.63 Value2=116.91 Value3=12.87 Value4=584.23 Value5=20.56 Value6=858.61 
+    6.txt: 1941/1947 valid rows
+      Averages (after outlier removal): Value1=75.25 Value2=131.73 Value3=13.16 Value4=583.28 Value5=20.56 Value6=858.10 
+    Density 140 Averages: Value1=63.36 Value2=107.92 Value3=13.03 Value4=583.44 Value5=20.54 Value6=857.82 
+  Density 160:
+    1.txt: 2745/2749 valid rows
+      Averages (after outlier removal): Value1=34.23 Value2=45.25 Value3=13.77 Value4=595.56 Value5=19.92 Value6=857.77 
+    2.txt: 940/946 valid rows
+      Averages (after outlier removal): Value1=41.78 Value2=67.08 Value3=13.03 Value4=593.10 Value5=20.42 Value6=856.48 
+    3.txt: 738/742 valid rows
+      Averages (after outlier removal): Value1=36.66 Value2=51.58 Value3=13.10 Value4=597.67 Value5=20.43 Value6=856.29 
+    4.txt: 953/955 valid rows
+      Averages (after outlier removal): Value1=36.83 Value2=52.22 Value3=12.91 Value4=598.75 Value5=20.51 Value6=856.57 
+    5.txt: 1465/1472 valid rows
+      Averages (after outlier removal): Value1=35.30 Value2=47.71 Value3=13.62 Value4=595.65 Value5=19.72 Value6=857.70 
+    6.txt: 1329/1332 valid rows
+      Averages (after outlier removal): Value1=35.16 Value2=47.79 Value3=13.74 Value4=598.09 Value5=19.94 Value6=857.97 
+    Density 160 Averages: Value1=36.66 Value2=51.94 Value3=13.36 Value4=596.47 Value5=20.16 Value6=857.13 
+  Density 180:
+    1.txt: 1057/1062 valid rows
+      Averages (after outlier removal): Value1=32.79 Value2=10.62 Value3=12.76 Value4=581.49 Value5=17.86 Value6=853.93 
+    2.txt: 948/953 valid rows
+      Averages (after outlier removal): Value1=32.89 Value2=10.94 Value3=12.83 Value4=586.03 Value5=17.85 Value6=853.68 
+    3.txt: 1436/1439 valid rows
+      Averages (after outlier removal): Value1=32.05 Value2=9.25 Value3=12.86 Value4=603.49 Value5=17.81 Value6=852.78 
+    4.txt: 1207/1209 valid rows
+      Averages (after outlier removal): Value1=32.41 Value2=9.70 Value3=12.84 Value4=604.79 Value5=17.77 Value6=850.55 
+    5.txt: 1204/1206 valid rows
+      Averages (after outlier removal): Value1=31.51 Value2=8.39 Value3=12.85 Value4=604.51 Value5=17.84 Value6=853.92 
+    6.txt: 1082/1086 valid rows
+      Averages (after outlier removal): Value1=32.50 Value2=10.23 Value3=12.83 Value4=606.58 Value5=17.76 Value6=853.38 
+    Density 180 Averages: Value1=32.36 Value2=9.86 Value3=12.83 Value4=597.82 Value5=17.82 Value6=853.04 
+  Density 200:
+    1.txt: 1067/1072 valid rows
+      Averages (after outlier removal): Value1=32.01 Value2=9.13 Value3=12.77 Value4=604.95 Value5=17.91 Value6=853.87 
+    2.txt: 6206/6212 valid rows
+      Averages (after outlier removal): Value1=323.05 Value2=8.12 Value3=149.93 Value4=693.58 Value5=17.91 Value6=852.28 
+    3.txt: 1051/1054 valid rows
+      Averages (after outlier removal): Value1=32.89 Value2=9.98 Value3=12.96 Value4=623.98 Value5=17.43 Value6=853.39 
+    4.txt: 1166/1168 valid rows
+      Averages (after outlier removal): Value1=32.45 Value2=9.84 Value3=12.94 Value4=625.19 Value5=17.39 Value6=853.46 
+    5.txt: 2051/2054 valid rows
+      Averages (after outlier removal): Value1=32.66 Value2=9.76 Value3=12.96 Value4=619.23 Value5=17.92 Value6=853.49 
+    6.txt: 2003/2006 valid rows
+      Averages (after outlier removal): Value1=32.04 Value2=6.92 Value3=13.40 Value4=616.38 Value5=18.20 Value6=855.03 
+    Density 200 Averages: Value1=80.85 Value2=8.96 Value3=35.83 Value4=630.55 Value5=17.79 Value6=853.59 
+  Density 220:
+    1.txt: 898/901 valid rows
+      Averages (after outlier removal): Value1=36.73 Value2=13.88 Value3=13.12 Value4=625.38 Value5=17.26 Value6=854.46 
+    2.txt: 901/904 valid rows
+      Averages (after outlier removal): Value1=36.07 Value2=13.18 Value3=13.16 Value4=628.59 Value5=17.26 Value6=854.32 
+    3.txt: 1005/1009 valid rows
+      Averages (after outlier removal): Value1=35.75 Value2=12.71 Value3=13.16 Value4=630.26 Value5=17.23 Value6=854.16 
+    4.txt: 2214/2218 valid rows
+      Averages (after outlier removal): Value1=38.60 Value2=17.06 Value3=13.05 Value4=629.83 Value5=17.60 Value6=854.01 
+    5.txt: 956/961 valid rows
+      Averages (after outlier removal): Value1=40.12 Value2=18.90 Value3=13.07 Value4=625.14 Value5=17.47 Value6=853.75 
+    6.txt: 1410/1414 valid rows
+      Averages (after outlier removal): Value1=38.35 Value2=16.89 Value3=13.15 Value4=625.17 Value5=17.26 Value6=852.08 
+    Density 220 Averages: Value1=37.60 Value2=15.44 Value3=13.12 Value4=627.40 Value5=17.35 Value6=853.80 
+  Density 240:
+    1.txt: 29364/29369 valid rows
+      Averages (after outlier removal): Value1=32.72 Value2=21.98 Value3=13.52 Value4=648.41 Value5=16.33 Value6=854.94 
+    2.txt: 796/800 valid rows
+      Averages (after outlier removal): Value1=28.95 Value2=18.05 Value3=13.42 Value4=648.74 Value5=15.88 Value6=854.81 
+    3.txt: 1376/1379 valid rows
+      Averages (after outlier removal): Value1=28.90 Value2=20.16 Value3=13.37 Value4=650.66 Value5=15.97 Value6=854.75 
+    4.txt: 1373/1376 valid rows
+      Averages (after outlier removal): Value1=28.62 Value2=49.89 Value3=13.56 Value4=649.20 Value5=7.53 Value6=854.75 
+    5.txt: 2363/2369 valid rows
+      Averages (after outlier removal): Value1=29.80 Value2=41.86 Value3=13.74 Value4=652.11 Value5=9.19 Value6=854.80 
+    6.txt: 1312/1315 valid rows
+      Averages (after outlier removal): Value1=31.00 Value2=45.24 Value3=13.77 Value4=654.78 Value5=15.70 Value6=855.04 
+    Density 240 Averages: Value1=30.00 Value2=32.86 Value3=13.56 Value4=650.65 Value5=13.43 Value6=854.85 
+  Density 60:
+    1.txt: 966/969 valid rows
+      Averages (after outlier removal): Value1=33.19 Value2=33.31 Value3=13.80 Value4=533.21 Value5=21.03 Value6=833.20 
+    2.txt: 699/702 valid rows
+      Averages (after outlier removal): Value1=33.27 Value2=33.02 Value3=13.83 Value4=532.24 Value5=21.10 Value6=830.71 
+    3.txt: 1084/1086 valid rows
+      Averages (after outlier removal): Value1=33.40 Value2=33.23 Value3=13.85 Value4=533.12 Value5=21.10 Value6=829.42 
+    4.txt: 991/993 valid rows
+      Averages (after outlier removal): Value1=33.47 Value2=33.36 Value3=13.91 Value4=534.78 Value5=21.12 Value6=828.21 
+    5.txt: 1136/1137 valid rows
+      Averages (after outlier removal): Value1=33.56 Value2=33.53 Value3=13.86 Value4=534.32 Value5=21.14 Value6=839.59 
+    6.txt: 1011/1013 valid rows
+      Averages (after outlier removal): Value1=34.03 Value2=36.19 Value3=13.86 Value4=536.26 Value5=21.12 Value6=836.37 
+    Density 60 Averages: Value1=33.49 Value2=33.77 Value3=13.85 Value4=533.99 Value5=21.10 Value6=832.92 
+  Density 80:
+    1.txt: 1121/1125 valid rows
+      Averages (after outlier removal): Value1=33.71 Value2=37.68 Value3=13.95 Value4=537.10 Value5=21.01 Value6=847.26 
+    2.txt: 1095/1096 valid rows
+      Averages (after outlier removal): Value1=33.58 Value2=37.23 Value3=14.17 Value4=537.20 Value5=20.99 Value6=844.00 
+    3.txt: 661/664 valid rows
+      Averages (after outlier removal): Value1=33.69 Value2=37.45 Value3=14.36 Value4=537.40 Value5=21.03 Value6=843.54 
+    4.txt: 844/846 valid rows
+      Averages (after outlier removal): Value1=33.76 Value2=37.71 Value3=14.32 Value4=537.53 Value5=21.04 Value6=842.49 
+    5.txt: 778/780 valid rows
+      Averages (after outlier removal): Value1=33.61 Value2=37.09 Value3=14.24 Value4=537.85 Value5=21.04 Value6=841.84 
+    6.txt: 898/899 valid rows
+      Averages (after outlier removal): Value1=33.67 Value2=37.57 Value3=14.27 Value4=538.60 Value5=21.02 Value6=841.36 
+    Density 80 Averages: Value1=33.67 Value2=37.45 Value3=14.22 Value4=537.61 Value5=21.02 Value6=843.42 
+
+  jintur 1 Summary: 60 files processed
+  jintur 1 Overall Averages: Value1=41.52 Value2=37.19 Value3=15.64 Value4=589.12 Value5=19.11 Value6=851.45 
+
+Folder: jintur 2
+----------------------------------------
+  Density 100:
+    1.txt: 957/960 valid rows
+      Averages (after outlier removal): Value1=82.87 Value2=51.81 Value3=24.97 Value4=577.26 Value5=76.14 Value6=849.63 
+    2.txt: 783/787 valid rows
+      Averages (after outlier removal): Value1=82.94 Value2=52.85 Value3=24.76 Value4=578.88 Value5=76.19 Value6=849.82 
+    3.txt: 666/668 valid rows
+      Averages (after outlier removal): Value1=82.99 Value2=52.97 Value3=24.84 Value4=579.88 Value5=76.12 Value6=851.96 
+    4.txt: 1006/1009 valid rows
+      Averages (after outlier removal): Value1=82.92 Value2=53.89 Value3=25.06 Value4=580.33 Value5=75.99 Value6=861.48 
+    5.txt: 1164/1169 valid rows
+      Averages (after outlier removal): Value1=80.62 Value2=51.67 Value3=26.27 Value4=576.66 Value5=74.05 Value6=861.44 
+    6.txt: 904/907 valid rows
+      Averages (after outlier removal): Value1=80.59 Value2=53.71 Value3=25.79 Value4=580.45 Value5=74.76 Value6=861.45 
+    Density 100 Averages: Value1=82.15 Value2=52.82 Value3=25.28 Value4=578.91 Value5=75.54 Value6=855.96 
+  Density 120:
+    1.txt: 1299/1302 valid rows
+      Averages (after outlier removal): Value1=103.21 Value2=62.40 Value3=27.61 Value4=598.34 Value5=59.72 Value6=812.98 
+    2.txt: 652/655 valid rows
+      Averages (after outlier removal): Value1=102.70 Value2=63.00 Value3=27.42 Value4=599.79 Value5=59.07 Value6=812.58 
+    3.txt: 1015/1019 valid rows
+      Averages (after outlier removal): Value1=101.84 Value2=63.06 Value3=27.04 Value4=602.11 Value5=58.52 Value6=812.21 
+    4.txt: 1348/1352 valid rows
+      Averages (after outlier removal): Value1=100.53 Value2=62.95 Value3=26.84 Value4=602.58 Value5=57.76 Value6=812.48 
+    5.txt: 1304/1308 valid rows
+      Averages (after outlier removal): Value1=101.12 Value2=62.66 Value3=26.67 Value4=602.65 Value5=58.09 Value6=812.02 
+    6.txt: 615/618 valid rows
+      Averages (after outlier removal): Value1=101.00 Value2=62.07 Value3=24.23 Value4=603.09 Value5=58.38 Value6=811.98 
+    Density 120 Averages: Value1=101.73 Value2=62.69 Value3=26.64 Value4=601.43 Value5=58.59 Value6=812.37 
+  Density 140:
+    1.txt: 905/908 valid rows
+      Averages (after outlier removal): Value1=102.97 Value2=63.97 Value3=24.69 Value4=609.74 Value5=59.54 Value6=811.41 
+    2.txt: 616/620 valid rows
+      Averages (after outlier removal): Value1=102.83 Value2=64.01 Value3=24.69 Value4=612.62 Value5=59.95 Value6=811.88 
+    3.txt: 649/652 valid rows
+      Averages (after outlier removal): Value1=102.62 Value2=64.12 Value3=24.75 Value4=613.76 Value5=59.91 Value6=812.12 
+    4.txt: 732/736 valid rows
+      Averages (after outlier removal): Value1=101.89 Value2=64.66 Value3=24.58 Value4=614.34 Value5=59.77 Value6=812.63 
+    5.txt: 1325/1329 valid rows
+      Averages (after outlier removal): Value1=100.88 Value2=64.11 Value3=24.56 Value4=616.05 Value5=59.22 Value6=811.94 
+    6.txt: 1256/1259 valid rows
+      Averages (after outlier removal): Value1=100.37 Value2=63.57 Value3=24.30 Value4=616.94 Value5=58.84 Value6=811.73 
+    Density 140 Averages: Value1=101.93 Value2=64.07 Value3=24.60 Value4=613.91 Value5=59.54 Value6=811.95 
+  Density 160:
+    1.txt: 903/908 valid rows
+      Averages (after outlier removal): Value1=100.81 Value2=66.42 Value3=23.52 Value4=620.44 Value5=59.49 Value6=811.08 
+    2.txt: 609/613 valid rows
+      Averages (after outlier removal): Value1=101.11 Value2=67.01 Value3=23.69 Value4=623.83 Value5=59.64 Value6=811.13 
+    3.txt: 611/615 valid rows
+      Averages (after outlier removal): Value1=101.33 Value2=66.39 Value3=23.95 Value4=625.85 Value5=59.71 Value6=810.98 
+    4.txt: 687/690 valid rows
+      Averages (after outlier removal): Value1=101.49 Value2=67.02 Value3=23.76 Value4=626.89 Value5=60.02 Value6=810.90 
+    5.txt: 1045/1048 valid rows
+      Averages (after outlier removal): Value1=101.67 Value2=67.49 Value3=24.12 Value4=628.25 Value5=60.93 Value6=811.24 
+    6.txt: 866/869 valid rows
+      Averages (after outlier removal): Value1=102.16 Value2=67.60 Value3=23.88 Value4=629.52 Value5=62.23 Value6=811.00 
+    Density 160 Averages: Value1=101.43 Value2=66.99 Value3=23.82 Value4=625.80 Value5=60.34 Value6=811.06 
+  Density 180:
+    1.txt: 613/618 valid rows
+      Averages (after outlier removal): Value1=105.29 Value2=71.74 Value3=25.08 Value4=639.71 Value5=92.03 Value6=810.77 
+    2.txt: 689/692 valid rows
+      Averages (after outlier removal): Value1=106.43 Value2=72.00 Value3=25.51 Value4=638.05 Value5=88.07 Value6=810.90 
+    3.txt: 1725/1730 valid rows
+      Averages (after outlier removal): Value1=98.87 Value2=68.05 Value3=25.37 Value4=636.26 Value5=68.72 Value6=810.93 
+    4.txt: 1177/1181 valid rows
+      Averages (after outlier removal): Value1=99.39 Value2=68.11 Value3=25.72 Value4=636.56 Value5=63.86 Value6=811.15 
+    5.txt: 806/810 valid rows
+      Averages (after outlier removal): Value1=105.49 Value2=71.17 Value3=25.53 Value4=634.98 Value5=92.30 Value6=810.43 
+    6.txt: 649/652 valid rows
+      Averages (after outlier removal): Value1=105.13 Value2=68.58 Value3=25.67 Value4=634.69 Value5=68.69 Value6=811.08 
+    Density 180 Averages: Value1=103.43 Value2=69.94 Value3=25.48 Value4=636.71 Value5=78.94 Value6=810.88 
+  Density 200:
+    1.txt: 833/837 valid rows
+      Averages (after outlier removal): Value1=111.74 Value2=76.05 Value3=26.59 Value4=648.14 Value5=66.61 Value6=810.37 
+    2.txt: 618/623 valid rows
+      Averages (after outlier removal): Value1=109.06 Value2=72.59 Value3=26.60 Value4=648.25 Value5=66.06 Value6=810.30 
+    3.txt: 896/900 valid rows
+      Averages (after outlier removal): Value1=110.16 Value2=74.10 Value3=26.73 Value4=651.73 Value5=65.94 Value6=810.16 
+    4.txt: 618/621 valid rows
+      Averages (after outlier removal): Value1=109.21 Value2=73.49 Value3=26.84 Value4=648.61 Value5=66.06 Value6=810.30 
+    5.txt: 1910/1916 valid rows
+      Averages (after outlier removal): Value1=109.71 Value2=73.45 Value3=26.79 Value4=649.11 Value5=64.52 Value6=810.55 
+    6.txt: 625/627 valid rows
+      Averages (after outlier removal): Value1=109.27 Value2=71.55 Value3=27.36 Value4=644.97 Value5=65.08 Value6=810.39 
+    Density 200 Averages: Value1=109.86 Value2=73.54 Value3=26.82 Value4=648.47 Value5=65.71 Value6=810.35 
+  Density 220:
+    1.txt: 854/858 valid rows
+      Averages (after outlier removal): Value1=117.70 Value2=82.28 Value3=27.17 Value4=658.11 Value5=55.91 Value6=810.88 
+    2.txt: 758/763 valid rows
+      Averages (after outlier removal): Value1=111.53 Value2=76.85 Value3=27.66 Value4=655.65 Value5=58.76 Value6=810.13 
+    3.txt: 605/608 valid rows
+      Averages (after outlier removal): Value1=112.18 Value2=77.11 Value3=27.63 Value4=655.56 Value5=59.34 Value6=810.06 
+    4.txt: 855/859 valid rows
+      Averages (after outlier removal): Value1=113.66 Value2=78.11 Value3=27.67 Value4=660.02 Value5=58.73 Value6=810.06 
+    5.txt: 707/712 valid rows
+      Averages (after outlier removal): Value1=111.56 Value2=79.84 Value3=27.44 Value4=655.38 Value5=58.81 Value6=810.04 
+    6.txt: 667/669 valid rows
+      Averages (after outlier removal): Value1=112.17 Value2=80.22 Value3=27.12 Value4=660.16 Value5=63.44 Value6=809.65 
+    Density 220 Averages: Value1=113.13 Value2=79.07 Value3=27.45 Value4=657.48 Value5=59.16 Value6=810.14 
+  Density 240:
+    1.txt: 1001/1005 valid rows
+      Averages (after outlier removal): Value1=115.27 Value2=78.04 Value3=27.32 Value4=666.72 Value5=62.31 Value6=809.55 
+    2.txt: 761/765 valid rows
+      Averages (after outlier removal): Value1=116.09 Value2=79.37 Value3=26.71 Value4=671.45 Value5=56.31 Value6=810.20 
+    3.txt: 603/606 valid rows
+      Averages (after outlier removal): Value1=116.85 Value2=79.23 Value3=25.79 Value4=674.77 Value5=55.94 Value6=810.05 
+    4.txt: 629/634 valid rows
+      Averages (after outlier removal): Value1=114.34 Value2=80.32 Value3=25.74 Value4=663.75 Value5=68.12 Value6=809.67 
+    5.txt: 841/845 valid rows
+      Averages (after outlier removal): Value1=116.21 Value2=81.01 Value3=25.64 Value4=669.36 Value5=70.12 Value6=809.45 
+    6.txt: 780/784 valid rows
+      Averages (after outlier removal): Value1=112.95 Value2=79.59 Value3=25.64 Value4=664.60 Value5=60.67 Value6=809.36 
+    Density 240 Averages: Value1=115.29 Value2=79.59 Value3=26.14 Value4=668.44 Value5=62.24 Value6=809.71 
+  Density 60:
+    1.txt: 666/669 valid rows
+      Averages (after outlier removal): Value1=85.12 Value2=43.76 Value3=26.71 Value4=558.64 Value5=74.98 Value6=523.72 
+    2.txt: 662/665 valid rows
+      Averages (after outlier removal): Value1=85.94 Value2=44.22 Value3=26.69 Value4=562.49 Value5=77.40 Value6=523.41 
+    3.txt: 653/654 valid rows
+      Averages (after outlier removal): Value1=86.83 Value2=44.22 Value3=26.69 Value4=562.45 Value5=78.80 Value6=502.57 
+    4.txt: 653/656 valid rows
+      Averages (after outlier removal): Value1=85.27 Value2=43.97 Value3=26.67 Value4=560.18 Value5=75.01 Value6=524.62 
+    5.txt: 658/661 valid rows
+      Averages (after outlier removal): Value1=85.02 Value2=43.82 Value3=26.71 Value4=560.39 Value5=74.38 Value6=520.95 
+    6.txt: 831/833 valid rows
+      Averages (after outlier removal): Value1=85.04 Value2=43.93 Value3=26.92 Value4=561.25 Value5=74.27 Value6=524.33 
+    Density 60 Averages: Value1=85.54 Value2=43.99 Value3=26.73 Value4=560.90 Value5=75.81 Value6=519.93 
+  Density 80:
+    1.txt: 917/922 valid rows
+      Averages (after outlier removal): Value1=85.79 Value2=47.68 Value3=23.67 Value4=569.06 Value5=77.17 Value6=850.79 
+    2.txt: 643/647 valid rows
+      Averages (after outlier removal): Value1=83.70 Value2=47.27 Value3=26.43 Value4=570.07 Value5=74.57 Value6=861.77 
+    3.txt: 647/650 valid rows
+      Averages (after outlier removal): Value1=83.79 Value2=47.56 Value3=26.43 Value4=571.12 Value5=74.55 Value6=861.61 
+    4.txt: 1193/1196 valid rows
+      Averages (after outlier removal): Value1=84.04 Value2=47.77 Value3=26.78 Value4=571.67 Value5=74.10 Value6=861.67 
+    5.txt: 697/700 valid rows
+      Averages (after outlier removal): Value1=85.58 Value2=48.15 Value3=23.52 Value4=569.81 Value5=78.13 Value6=859.18 
+    6.txt: 1528/1531 valid rows
+      Averages (after outlier removal): Value1=85.11 Value2=48.57 Value3=23.98 Value4=570.67 Value5=78.09 Value6=858.72 
+    Density 80 Averages: Value1=84.67 Value2=47.83 Value3=25.13 Value4=570.40 Value5=76.10 Value6=858.96 
+
+  jintur 2 Summary: 60 files processed
+  jintur 2 Overall Averages: Value1=99.92 Value2=64.05 Value3=25.81 Value4=616.24 Value5=67.20 Value6=791.13 
+
+Folder: koregaon 2
+----------------------------------------
+  Density 100:
+    1.txt: 1361/1364 valid rows
+      Averages (after outlier removal): Value1=28.13 Value2=42.50 Value3=12.59 Value4=558.12 Value5=18.47 Value6=860.88 
+    2.txt: 1554/1559 valid rows
+      Averages (after outlier removal): Value1=27.82 Value2=42.94 Value3=12.60 Value4=562.42 Value5=18.33 Value6=860.89 
+    3.txt: 686/689 valid rows
+      Averages (after outlier removal): Value1=29.55 Value2=43.29 Value3=12.56 Value4=563.82 Value5=18.21 Value6=860.94 
+    4.txt: 809/813 valid rows
+      Averages (after outlier removal): Value1=29.44 Value2=43.61 Value3=12.50 Value4=564.97 Value5=18.15 Value6=861.07 
+    5.txt: 725/727 valid rows
+      Averages (after outlier removal): Value1=29.74 Value2=44.29 Value3=12.53 Value4=565.99 Value5=18.21 Value6=861.03 
+    6.txt: 783/785 valid rows
+      Averages (after outlier removal): Value1=29.00 Value2=44.77 Value3=12.53 Value4=566.52 Value5=18.28 Value6=861.05 
+    Density 100 Averages: Value1=28.95 Value2=43.57 Value3=12.55 Value4=563.64 Value5=18.28 Value6=860.98 
+  Density 120:
+    1.txt: 1477/1480 valid rows
+      Averages (after outlier removal): Value1=30.50 Value2=52.57 Value3=12.92 Value4=592.39 Value5=18.39 Value6=860.63 
+    2.txt: 991/993 valid rows
+      Averages (after outlier removal): Value1=30.75 Value2=53.56 Value3=12.92 Value4=597.84 Value5=18.33 Value6=860.55 
+    3.txt: 718/721 valid rows
+      Averages (after outlier removal): Value1=30.82 Value2=54.78 Value3=12.75 Value4=599.87 Value5=18.31 Value6=861.55 
+    4.txt: 768/770 valid rows
+      Averages (after outlier removal): Value1=30.10 Value2=52.23 Value3=12.78 Value4=592.92 Value5=18.27 Value6=865.02 
+    5.txt: 750/752 valid rows
+      Averages (after outlier removal): Value1=30.27 Value2=53.20 Value3=12.81 Value4=596.15 Value5=18.25 Value6=865.84 
+    6.txt: 743/747 valid rows
+      Averages (after outlier removal): Value1=30.62 Value2=53.45 Value3=13.15 Value4=599.25 Value5=18.41 Value6=865.96 
+    Density 120 Averages: Value1=30.51 Value2=53.30 Value3=12.89 Value4=596.40 Value5=18.33 Value6=863.26 
+  Density 140:
+    1.txt: 1384/1387 valid rows
+      Averages (after outlier removal): Value1=37.86 Value2=60.64 Value3=13.54 Value4=639.63 Value5=18.50 Value6=866.03 
+    2.txt: 682/685 valid rows
+      Averages (after outlier removal): Value1=40.01 Value2=63.66 Value3=13.76 Value4=646.16 Value5=18.48 Value6=865.98 
+    3.txt: 1814/1819 valid rows
+      Averages (after outlier removal): Value1=37.00 Value2=60.48 Value3=14.39 Value4=638.72 Value5=18.44 Value6=866.00 
+    4.txt: 729/732 valid rows
+      Averages (after outlier removal): Value1=38.27 Value2=62.12 Value3=14.69 Value4=643.51 Value5=18.44 Value6=866.09 
+    5.txt: 722/726 valid rows
+      Averages (after outlier removal): Value1=36.82 Value2=60.65 Value3=15.06 Value4=639.74 Value5=18.49 Value6=866.07 
+    6.txt: 790/795 valid rows
+      Averages (after outlier removal): Value1=36.57 Value2=60.87 Value3=15.07 Value4=639.88 Value5=18.47 Value6=866.09 
+    Density 140 Averages: Value1=37.76 Value2=61.40 Value3=14.42 Value4=641.27 Value5=18.47 Value6=866.04 
+  Density 160:
+    1.txt: 1394/1398 valid rows
+      Averages (after outlier removal): Value1=89.24 Value2=69.64 Value3=16.82 Value4=688.15 Value5=19.03 Value6=866.00 
+    2.txt: 695/697 valid rows
+      Averages (after outlier removal): Value1=97.42 Value2=70.71 Value3=17.01 Value4=691.83 Value5=19.05 Value6=865.97 
+    3.txt: 718/723 valid rows
+      Averages (after outlier removal): Value1=82.04 Value2=68.73 Value3=16.98 Value4=682.25 Value5=19.12 Value6=865.96 
+    4.txt: 688/691 valid rows
+      Averages (after outlier removal): Value1=81.98 Value2=69.72 Value3=17.56 Value4=683.06 Value5=19.08 Value6=865.83 
+    5.txt: 710/713 valid rows
+      Averages (after outlier removal): Value1=91.68 Value2=70.34 Value3=18.15 Value4=688.40 Value5=19.10 Value6=865.80 
+    6.txt: 806/810 valid rows
+      Averages (after outlier removal): Value1=82.75 Value2=69.30 Value3=17.38 Value4=682.51 Value5=19.07 Value6=865.80 
+    Density 160 Averages: Value1=87.52 Value2=69.74 Value3=17.32 Value4=686.03 Value5=19.08 Value6=865.89 
+  Density 180:
+    1.txt: 1285/1289 valid rows
+      Averages (after outlier removal): Value1=207.96 Value2=70.22 Value3=26.01 Value4=689.34 Value5=25.39 Value6=865.75 
+    2.txt: 732/735 valid rows
+      Averages (after outlier removal): Value1=189.08 Value2=69.60 Value3=24.57 Value4=688.16 Value5=24.76 Value6=865.63 
+    3.txt: 670/675 valid rows
+      Averages (after outlier removal): Value1=187.22 Value2=69.12 Value3=23.84 Value4=676.77 Value5=24.93 Value6=865.61 
+    4.txt: 671/676 valid rows
+      Averages (after outlier removal): Value1=189.97 Value2=69.75 Value3=23.73 Value4=685.68 Value5=24.58 Value6=865.61 
+    5.txt: 735/739 valid rows
+      Averages (after outlier removal): Value1=185.69 Value2=69.71 Value3=23.59 Value4=685.39 Value5=24.62 Value6=865.64 
+    6.txt: 989/995 valid rows
+      Averages (after outlier removal): Value1=187.44 Value2=69.32 Value3=23.59 Value4=687.07 Value5=24.71 Value6=865.63 
+    Density 180 Averages: Value1=191.23 Value2=69.62 Value3=24.22 Value4=685.40 Value5=24.83 Value6=865.64 
+  Density 200:
+    1.txt: 1301/1303 valid rows
+      Averages (after outlier removal): Value1=485.16 Value2=64.66 Value3=58.64 Value4=666.15 Value5=69.95 Value6=864.12 
+    2.txt: 638/642 valid rows
+      Averages (after outlier removal): Value1=440.54 Value2=64.32 Value3=53.95 Value4=663.13 Value5=67.99 Value6=864.13 
+    3.txt: 653/656 valid rows
+      Averages (after outlier removal): Value1=440.16 Value2=65.38 Value3=54.26 Value4=664.20 Value5=67.21 Value6=864.16 
+    4.txt: 624/627 valid rows
+      Averages (after outlier removal): Value1=458.32 Value2=67.22 Value3=55.61 Value4=666.55 Value5=68.91 Value6=864.06 
+    5.txt: 651/655 valid rows
+      Averages (after outlier removal): Value1=500.90 Value2=67.23 Value3=61.38 Value4=668.42 Value5=71.71 Value6=864.04 
+    6.txt: 751/755 valid rows
+      Averages (after outlier removal): Value1=471.65 Value2=67.81 Value3=59.13 Value4=666.52 Value5=69.37 Value6=864.04 
+    Density 200 Averages: Value1=466.12 Value2=66.10 Value3=57.16 Value4=665.83 Value5=69.19 Value6=864.09 
+  Density 220:
+    1.txt: 1135/1138 valid rows
+      Averages (after outlier removal): Value1=866.64 Value2=59.86 Value3=129.91 Value4=625.31 Value5=243.29 Value6=864.01 
+    2.txt: 599/602 valid rows
+      Averages (after outlier removal): Value1=867.00 Value2=59.28 Value3=139.80 Value4=620.91 Value5=254.58 Value6=864.01 
+    3.txt: 657/662 valid rows
+      Averages (after outlier removal): Value1=867.09 Value2=59.50 Value3=143.68 Value4=621.61 Value5=262.74 Value6=864.01 
+    4.txt: 1250/1254 valid rows
+      Averages (after outlier removal): Value1=866.97 Value2=59.31 Value3=147.44 Value4=622.23 Value5=269.45 Value6=863.98 
+    5.txt: 661/665 valid rows
+      Averages (after outlier removal): Value1=851.65 Value2=58.36 Value3=123.89 Value4=623.28 Value5=228.71 Value6=864.01 
+    6.txt: 1180/1183 valid rows
+      Averages (after outlier removal): Value1=858.21 Value2=58.49 Value3=124.95 Value4=623.09 Value5=225.39 Value6=864.02 
+    Density 220 Averages: Value1=862.93 Value2=59.13 Value3=134.94 Value4=622.74 Value5=247.36 Value6=864.01 
+  Density 240:
+    1.txt: 1245/1248 valid rows
+      Averages (after outlier removal): Value1=866.99 Value2=55.12 Value3=245.30 Value4=578.61 Value5=667.94 Value6=863.90 
+    2.txt: 634/639 valid rows
+      Averages (after outlier removal): Value1=866.91 Value2=55.47 Value3=257.99 Value4=579.73 Value5=693.88 Value6=863.84 
+    3.txt: 1305/1309 valid rows
+      Averages (after outlier removal): Value1=866.81 Value2=55.14 Value3=262.13 Value4=574.62 Value5=707.18 Value6=863.81 
+    4.txt: 1002/1007 valid rows
+      Averages (after outlier removal): Value1=866.89 Value2=54.23 Value3=237.90 Value4=570.75 Value5=661.21 Value6=863.80 
+    5.txt: 673/676 valid rows
+      Averages (after outlier removal): Value1=866.80 Value2=54.79 Value3=255.59 Value4=569.25 Value5=683.67 Value6=863.74 
+    6.txt: 674/679 valid rows
+      Averages (after outlier removal): Value1=866.87 Value2=55.06 Value3=258.62 Value4=585.36 Value5=697.21 Value6=863.65 
+    Density 240 Averages: Value1=866.88 Value2=54.97 Value3=252.92 Value4=576.39 Value5=685.18 Value6=863.79 
+  Density 60:
+    1.txt: 1449/1452 valid rows
+      Averages (after outlier removal): Value1=29.96 Value2=36.13 Value3=11.24 Value4=522.53 Value5=18.49 Value6=851.16 
+    2.txt: 950/952 valid rows
+      Averages (after outlier removal): Value1=29.99 Value2=37.03 Value3=11.54 Value4=519.87 Value5=18.61 Value6=849.23 
+    3.txt: 907/909 valid rows
+      Averages (after outlier removal): Value1=29.94 Value2=36.05 Value3=11.42 Value4=523.60 Value5=18.59 Value6=848.56 
+    4.txt: 876/879 valid rows
+      Averages (after outlier removal): Value1=29.97 Value2=36.26 Value3=11.63 Value4=522.19 Value5=18.47 Value6=849.72 
+    5.txt: 963/967 valid rows
+      Averages (after outlier removal): Value1=29.96 Value2=37.13 Value3=11.61 Value4=521.16 Value5=18.42 Value6=860.07 
+    6.txt: 1423/1427 valid rows
+      Averages (after outlier removal): Value1=29.87 Value2=37.05 Value3=11.94 Value4=527.28 Value5=18.37 Value6=864.04 
+    Density 60 Averages: Value1=29.95 Value2=36.61 Value3=11.56 Value4=522.77 Value5=18.49 Value6=853.80 
+  Density 80:
+    1.txt: 1383/1386 valid rows
+      Averages (after outlier removal): Value1=28.48 Value2=36.66 Value3=12.57 Value4=533.10 Value5=18.25 Value6=862.91 
+    2.txt: 886/888 valid rows
+      Averages (after outlier removal): Value1=28.78 Value2=36.35 Value3=12.58 Value4=536.32 Value5=18.25 Value6=862.91 
+    3.txt: 743/747 valid rows
+      Averages (after outlier removal): Value1=28.08 Value2=37.04 Value3=12.75 Value4=535.12 Value5=18.36 Value6=862.89 
+    4.txt: 782/786 valid rows
+      Averages (after outlier removal): Value1=28.72 Value2=37.57 Value3=12.84 Value4=538.84 Value5=18.40 Value6=862.78 
+    5.txt: 699/702 valid rows
+      Averages (after outlier removal): Value1=27.97 Value2=37.15 Value3=12.52 Value4=538.35 Value5=18.39 Value6=862.77 
+    6.txt: 887/892 valid rows
+      Averages (after outlier removal): Value1=29.19 Value2=37.43 Value3=12.52 Value4=539.80 Value5=18.39 Value6=862.87 
+    Density 80 Averages: Value1=28.54 Value2=37.04 Value3=12.63 Value4=536.92 Value5=18.34 Value6=862.85 
+
+  koregaon 2 Summary: 60 files processed
+  koregaon 2 Overall Averages: Value1=263.04 Value2=55.15 Value3=55.06 Value4=609.74 Value5=113.75 Value6=863.04 
+
+Folder: koregaon_soil_1
+----------------------------------------
+  Density 100:
+    1.txt: 829/834 valid rows
+      Averages (after outlier removal): Value1=25.00 Value2=38.55 Value3=13.00 Value4=526.56 Value5=15.00 Value6=830.24 
+    2.txt: 647/649 valid rows
+      Averages (after outlier removal): Value1=25.34 Value2=38.96 Value3=13.00 Value4=527.87 Value5=15.00 Value6=827.84 
+    3.txt: 631/636 valid rows
+      Averages (after outlier removal): Value1=25.66 Value2=38.99 Value3=12.67 Value4=525.41 Value5=15.00 Value6=828.62 
+    4.txt: 727/729 valid rows
+      Averages (after outlier removal): Value1=25.22 Value2=39.20 Value3=12.89 Value4=527.00 Value5=15.00 Value6=825.94 
+    5.txt: 666/669 valid rows
+      Averages (after outlier removal): Value1=25.27 Value2=39.57 Value3=13.00 Value4=527.59 Value5=15.00 Value6=825.43 
+    6.txt: 1018/1023 valid rows
+      Averages (after outlier removal): Value1=25.29 Value2=38.57 Value3=13.00 Value4=525.00 Value5=15.00 Value6=827.90 
+    Density 100 Averages: Value1=25.30 Value2=38.97 Value3=12.93 Value4=526.57 Value5=15.00 Value6=827.66 
+  Density 120:
+    1.txt: 1029/1032 valid rows
+      Averages (after outlier removal): Value1=25.89 Value2=40.68 Value3=12.15 Value4=534.80 Value5=15.00 Value6=840.25 
+    2.txt: 631/635 valid rows
+      Averages (after outlier removal): Value1=26.00 Value2=40.79 Value3=10.60 Value4=536.73 Value5=15.12 Value6=838.96 
+    3.txt: 641/645 valid rows
+      Averages (after outlier removal): Value1=26.00 Value2=39.95 Value3=12.42 Value4=533.49 Value5=15.02 Value6=841.01 
+    4.txt: 725/728 valid rows
+      Averages (after outlier removal): Value1=26.00 Value2=40.97 Value3=12.74 Value4=535.31 Value5=15.00 Value6=838.25 
+    5.txt: 591/592 valid rows
+      Averages (after outlier removal): Value1=25.83 Value2=41.18 Value3=12.00 Value4=536.67 Value5=14.86 Value6=837.53 
+    6.txt: 753/756 valid rows
+      Averages (after outlier removal): Value1=25.98 Value2=41.21 Value3=12.36 Value4=538.00 Value5=15.00 Value6=837.65 
+    Density 120 Averages: Value1=25.95 Value2=40.80 Value3=12.04 Value4=535.83 Value5=15.00 Value6=838.94 
+  Density 140:
+    1.txt: 783/788 valid rows
+      Averages (after outlier removal): Value1=26.00 Value2=44.74 Value3=13.00 Value4=549.54 Value5=15.00 Value6=856.66 
+    2.txt: 672/676 valid rows
+      Averages (after outlier removal): Value1=25.63 Value2=45.45 Value3=13.00 Value4=551.02 Value5=15.00 Value6=856.69 
+    3.txt: 680/684 valid rows
+      Averages (after outlier removal): Value1=25.28 Value2=42.77 Value3=13.31 Value4=543.68 Value5=15.13 Value6=854.39 
+    4.txt: 781/784 valid rows
+      Averages (after outlier removal): Value1=25.16 Value2=43.91 Value3=13.00 Value4=545.25 Value5=15.00 Value6=854.10 
+    5.txt: 649/651 valid rows
+      Averages (after outlier removal): Value1=25.00 Value2=44.20 Value3=13.00 Value4=546.96 Value5=15.00 Value6=854.40 
+    6.txt: 795/799 valid rows
+      Averages (after outlier removal): Value1=25.14 Value2=42.46 Value3=13.13 Value4=541.98 Value5=15.00 Value6=853.39 
+    Density 140 Averages: Value1=25.37 Value2=43.92 Value3=13.07 Value4=546.40 Value5=15.02 Value6=854.94 
+  Density 160:
+    1.txt: 795/797 valid rows
+      Averages (after outlier removal): Value1=26.00 Value2=48.43 Value3=12.45 Value4=559.09 Value5=15.00 Value6=856.46 
+    2.txt: 634/638 valid rows
+      Averages (after outlier removal): Value1=26.00 Value2=48.65 Value3=12.52 Value4=560.60 Value5=15.00 Value6=856.37 
+    3.txt: 658/663 valid rows
+      Averages (after outlier removal): Value1=26.00 Value2=47.82 Value3=12.18 Value4=555.27 Value5=15.00 Value6=856.34 
+    4.txt: 950/955 valid rows
+      Averages (after outlier removal): Value1=26.00 Value2=48.52 Value3=11.85 Value4=557.06 Value5=15.00 Value6=856.36 
+    5.txt: 640/644 valid rows
+      Averages (after outlier removal): Value1=26.20 Value2=49.38 Value3=12.00 Value4=559.00 Value5=15.00 Value6=856.32 
+    6.txt: 636/639 valid rows
+      Averages (after outlier removal): Value1=26.28 Value2=47.20 Value3=12.18 Value4=554.38 Value5=15.00 Value6=856.26 
+    Density 160 Averages: Value1=26.08 Value2=48.33 Value3=12.19 Value4=557.56 Value5=15.00 Value6=856.35 
+  Density 180:
+    1.txt: 763/767 valid rows
+      Averages (after outlier removal): Value1=26.89 Value2=46.70 Value3=12.81 Value4=557.41 Value5=15.07 Value6=856.04 
+    2.txt: 635/639 valid rows
+      Averages (after outlier removal): Value1=26.61 Value2=48.09 Value3=12.37 Value4=560.84 Value5=15.00 Value6=855.97 
+    3.txt: 650/654 valid rows
+      Averages (after outlier removal): Value1=26.38 Value2=46.97 Value3=12.32 Value4=559.33 Value5=15.02 Value6=855.93 
+    4.txt: 654/657 valid rows
+      Averages (after outlier removal): Value1=26.51 Value2=47.14 Value3=12.74 Value4=561.34 Value5=15.05 Value6=855.92 
+    5.txt: 663/667 valid rows
+      Averages (after outlier removal): Value1=26.33 Value2=46.86 Value3=12.19 Value4=558.64 Value5=15.06 Value6=855.89 
+    6.txt: 689/691 valid rows
+      Averages (after outlier removal): Value1=26.66 Value2=47.39 Value3=13.77 Value4=561.46 Value5=15.04 Value6=855.87 
+    Density 180 Averages: Value1=26.56 Value2=47.19 Value3=12.70 Value4=559.84 Value5=15.04 Value6=855.94 
+  Density 200:
+    1.txt: 689/694 valid rows
+      Averages (after outlier removal): Value1=31.54 Value2=53.88 Value3=13.89 Value4=592.20 Value5=15.13 Value6=855.70 
+    2.txt: 877/880 valid rows
+      Averages (after outlier removal): Value1=33.45 Value2=55.51 Value3=13.85 Value4=597.36 Value5=15.11 Value6=855.75 
+    3.txt: 648/653 valid rows
+      Averages (after outlier removal): Value1=30.58 Value2=55.22 Value3=13.69 Value4=592.23 Value5=15.15 Value6=855.73 
+    4.txt: 611/614 valid rows
+      Averages (after outlier removal): Value1=32.79 Value2=56.88 Value3=13.61 Value4=596.07 Value5=15.02 Value6=855.73 
+    5.txt: 674/677 valid rows
+      Averages (after outlier removal): Value1=31.39 Value2=53.84 Value3=13.06 Value4=593.42 Value5=15.03 Value6=855.62 
+    6.txt: 731/736 valid rows
+      Averages (after outlier removal): Value1=33.13 Value2=54.86 Value3=13.03 Value4=596.87 Value5=15.00 Value6=855.67 
+    Density 200 Averages: Value1=32.14 Value2=55.03 Value3=13.52 Value4=594.69 Value5=15.07 Value6=855.70 
+  Density 220:
+    1.txt: 1020/1023 valid rows
+      Averages (after outlier removal): Value1=62.60 Value2=59.34 Value3=13.95 Value4=624.73 Value5=15.12 Value6=855.58 
+    2.txt: 445/447 valid rows
+      Averages (after outlier removal): Value1=74.02 Value2=61.03 Value3=12.37 Value4=632.35 Value5=15.14 Value6=855.54 
+    3.txt: 652/655 valid rows
+      Averages (after outlier removal): Value1=63.20 Value2=60.35 Value3=12.61 Value4=625.39 Value5=15.37 Value6=855.53 
+    4.txt: 622/625 valid rows
+      Averages (after outlier removal): Value1=60.31 Value2=59.69 Value3=14.05 Value4=624.66 Value5=15.22 Value6=855.53 
+    5.txt: 644/648 valid rows
+      Averages (after outlier removal): Value1=61.97 Value2=63.27 Value3=14.97 Value4=626.85 Value5=15.53 Value6=855.51 
+    6.txt: 784/787 valid rows
+      Averages (after outlier removal): Value1=61.76 Value2=63.19 Value3=13.76 Value4=624.73 Value5=15.50 Value6=855.48 
+    Density 220 Averages: Value1=63.97 Value2=61.15 Value3=13.62 Value4=626.45 Value5=15.31 Value6=855.53 
+  Density 240:
+    1.txt: 630/634 valid rows
+      Averages (after outlier removal): Value1=155.29 Value2=66.03 Value3=13.99 Value4=640.61 Value5=17.09 Value6=855.42 
+    2.txt: 617/622 valid rows
+      Averages (after outlier removal): Value1=168.39 Value2=67.50 Value3=14.28 Value4=643.22 Value5=17.12 Value6=855.38 
+    3.txt: 631/632 valid rows
+      Averages (after outlier removal): Value1=165.10 Value2=67.99 Value3=14.20 Value4=641.84 Value5=16.86 Value6=855.30 
+    4.txt: 640/643 valid rows
+      Averages (after outlier removal): Value1=159.19 Value2=68.11 Value3=13.94 Value4=639.91 Value5=17.08 Value6=855.33 
+    5.txt: 604/608 valid rows
+      Averages (after outlier removal): Value1=157.48 Value2=68.73 Value3=14.05 Value4=640.93 Value5=16.96 Value6=855.33 
+    6.txt: 704/707 valid rows
+      Averages (after outlier removal): Value1=155.82 Value2=68.00 Value3=13.86 Value4=638.97 Value5=16.88 Value6=855.33 
+    Density 240 Averages: Value1=160.21 Value2=67.73 Value3=14.05 Value4=640.91 Value5=17.00 Value6=855.35 
+  Density 60:
+    1.txt: 835/839 valid rows
+      Averages (after outlier removal): Value1=26.44 Value2=34.00 Value3=13.00 Value4=507.77 Value5=16.00 Value6=820.46 
+    2.txt: 691/695 valid rows
+      Averages (after outlier removal): Value1=26.26 Value2=33.86 Value3=12.16 Value4=508.77 Value5=16.00 Value6=816.05 
+    3.txt: 661/665 valid rows
+      Averages (after outlier removal): Value1=26.43 Value2=33.81 Value3=12.80 Value4=508.02 Value5=16.00 Value6=815.87 
+    4.txt: 768/771 valid rows
+      Averages (after outlier removal): Value1=26.47 Value2=34.00 Value3=12.85 Value4=507.37 Value5=16.00 Value6=813.08 
+    5.txt: 753/756 valid rows
+      Averages (after outlier removal): Value1=26.71 Value2=34.00 Value3=13.00 Value4=507.37 Value5=16.00 Value6=811.72 
+    6.txt: 729/733 valid rows
+      Averages (after outlier removal): Value1=26.17 Value2=33.54 Value3=12.40 Value4=505.14 Value5=16.00 Value6=818.99 
+    Density 60 Averages: Value1=26.42 Value2=33.87 Value3=12.70 Value4=507.41 Value5=16.00 Value6=816.03 
+  Density 80:
+    1.txt: 837/842 valid rows
+      Averages (after outlier removal): Value1=26.81 Value2=35.04 Value3=13.10 Value4=517.85 Value5=16.00 Value6=822.14 
+    2.txt: 730/733 valid rows
+      Averages (after outlier removal): Value1=26.00 Value2=35.28 Value3=12.86 Value4=519.11 Value5=15.88 Value6=820.71 
+    3.txt: 646/650 valid rows
+      Averages (after outlier removal): Value1=26.07 Value2=34.69 Value3=13.29 Value4=517.99 Value5=15.86 Value6=824.93 
+    4.txt: 699/702 valid rows
+      Averages (after outlier removal): Value1=24.90 Value2=35.00 Value3=12.62 Value4=518.83 Value5=15.00 Value6=821.26 
+    5.txt: 649/652 valid rows
+      Averages (after outlier removal): Value1=25.00 Value2=35.00 Value3=11.02 Value4=519.29 Value5=15.00 Value6=817.79 
+    6.txt: 757/760 valid rows
+      Averages (after outlier removal): Value1=25.27 Value2=34.34 Value3=12.82 Value4=516.58 Value5=15.00 Value6=818.92 
+    Density 80 Averages: Value1=25.67 Value2=34.89 Value3=12.62 Value4=518.27 Value5=15.46 Value6=820.96 
+
+  koregaon_soil_1 Summary: 60 files processed
+  koregaon_soil_1 Overall Averages: Value1=43.77 Value2=47.19 Value3=12.95 Value4=561.40 Value5=15.39 Value6=843.74 
+
+Folder: manvat
+----------------------------------------
+  Density 100:
+    1.txt: 1335/1338 valid rows
+      Averages (after outlier removal): Value1=43.25 Value2=79.87 Value3=21.50 Value4=589.44 Value5=24.77 Value6=863.98 
+    10.txt: 1434/1436 valid rows
+      Averages (after outlier removal): Value1=43.66 Value2=83.47 Value3=21.60 Value4=593.90 Value5=24.93 Value6=864.01 
+    2.txt: 1366/1369 valid rows
+      Averages (after outlier removal): Value1=43.35 Value2=80.40 Value3=21.64 Value4=590.37 Value5=24.92 Value6=863.94 
+    3.txt: 1414/1417 valid rows
+      Averages (after outlier removal): Value1=43.31 Value2=80.40 Value3=21.66 Value4=590.98 Value5=24.92 Value6=863.91 
+    4.txt: 1393/1398 valid rows
+      Averages (after outlier removal): Value1=43.41 Value2=80.89 Value3=21.73 Value4=591.58 Value5=24.94 Value6=863.92 
+    5.txt: 1403/1407 valid rows
+      Averages (after outlier removal): Value1=43.47 Value2=80.99 Value3=21.76 Value4=591.97 Value5=24.90 Value6=863.93 
+    6.txt: 1391/1394 valid rows
+      Averages (after outlier removal): Value1=43.45 Value2=81.13 Value3=21.68 Value4=592.52 Value5=24.91 Value6=863.92 
+    7.txt: 1397/1399 valid rows
+      Averages (after outlier removal): Value1=43.54 Value2=82.17 Value3=21.72 Value4=592.87 Value5=25.00 Value6=863.95 
+    8.txt: 1476/1479 valid rows
+      Averages (after outlier removal): Value1=43.58 Value2=81.97 Value3=21.70 Value4=593.17 Value5=24.95 Value6=863.93 
+    9.txt: 1389/1392 valid rows
+      Averages (after outlier removal): Value1=43.55 Value2=83.62 Value3=21.70 Value4=593.47 Value5=24.94 Value6=863.93 
+    Density 100 Averages: Value1=43.46 Value2=81.49 Value3=21.67 Value4=592.03 Value5=24.92 Value6=863.94 
+  Density 120:
+    1.txt: 1615/1618 valid rows
+      Averages (after outlier removal): Value1=31.82 Value2=58.88 Value3=15.19 Value4=587.83 Value5=19.19 Value6=866.35 
+    2.txt: 1381/1385 valid rows
+      Averages (after outlier removal): Value1=31.73 Value2=59.96 Value3=15.29 Value4=590.20 Value5=19.06 Value6=866.37 
+    3.txt: 1342/1346 valid rows
+      Averages (after outlier removal): Value1=31.66 Value2=60.28 Value3=15.39 Value4=588.96 Value5=19.04 Value6=866.42 
+    4.txt: 1404/1407 valid rows
+      Averages (after outlier removal): Value1=31.55 Value2=60.76 Value3=15.18 Value4=589.34 Value5=18.93 Value6=865.84 
+    5.txt: 1367/1369 valid rows
+      Averages (after outlier removal): Value1=31.55 Value2=60.48 Value3=15.15 Value4=589.05 Value5=18.90 Value6=866.45 
+    6.txt: 1391/1394 valid rows
+      Averages (after outlier removal): Value1=31.58 Value2=60.98 Value3=14.99 Value4=589.82 Value5=18.91 Value6=866.42 
+    7.txt: 1521/1524 valid rows
+      Averages (after outlier removal): Value1=31.65 Value2=61.09 Value3=15.05 Value4=590.13 Value5=18.97 Value6=866.42 
+    8.txt: 1632/1636 valid rows
+      Averages (after outlier removal): Value1=31.72 Value2=62.57 Value3=15.02 Value4=596.16 Value5=18.94 Value6=866.39 
+    9.txt: 1582/1586 valid rows
+      Averages (after outlier removal): Value1=31.69 Value2=62.03 Value3=15.01 Value4=597.45 Value5=18.92 Value6=866.17 
+    Density 120 Averages: Value1=31.66 Value2=60.78 Value3=15.14 Value4=590.99 Value5=18.98 Value6=866.31 
+  Density 140:
+    1.txt: 1345/1349 valid rows
+      Averages (after outlier removal): Value1=35.42 Value2=69.45 Value3=15.05 Value4=629.87 Value5=18.83 Value6=865.52 
+    10.txt: 1367/1372 valid rows
+      Averages (after outlier removal): Value1=36.21 Value2=72.30 Value3=15.10 Value4=624.54 Value5=19.06 Value6=865.34 
+    2.txt: 1342/1345 valid rows
+      Averages (after outlier removal): Value1=35.81 Value2=71.12 Value3=14.89 Value4=631.73 Value5=18.86 Value6=865.45 
+    3.txt: 1406/1410 valid rows
+      Averages (after outlier removal): Value1=36.16 Value2=72.01 Value3=14.91 Value4=632.79 Value5=18.84 Value6=865.43 
+    4.txt: 1349/1352 valid rows
+      Averages (after outlier removal): Value1=36.58 Value2=70.19 Value3=14.98 Value4=633.99 Value5=18.85 Value6=865.41 
+    5.txt: 1349/1352 valid rows
+      Averages (after outlier removal): Value1=37.05 Value2=70.81 Value3=15.02 Value4=634.48 Value5=19.01 Value6=865.40 
+    6.txt: 1417/1422 valid rows
+      Averages (after outlier removal): Value1=37.45 Value2=71.07 Value3=15.07 Value4=634.75 Value5=19.00 Value6=865.42 
+    7.txt: 1407/1410 valid rows
+      Averages (after outlier removal): Value1=38.01 Value2=72.03 Value3=15.03 Value4=634.57 Value5=19.12 Value6=865.40 
+    8.txt: 1579/1584 valid rows
+      Averages (after outlier removal): Value1=35.47 Value2=69.75 Value3=15.09 Value4=622.55 Value5=19.10 Value6=865.39 
+    9.txt: 1450/1453 valid rows
+      Averages (after outlier removal): Value1=35.84 Value2=71.66 Value3=15.00 Value4=625.43 Value5=19.08 Value6=865.39 
+    Density 140 Averages: Value1=36.40 Value2=71.04 Value3=15.01 Value4=630.47 Value5=18.97 Value6=865.42 
+  Density 160:
+    1.txt: 1327/1331 valid rows
+      Averages (after outlier removal): Value1=63.72 Value2=79.40 Value3=15.37 Value4=666.85 Value5=19.38 Value6=865.40 
+    10.txt: 1372/1375 valid rows
+      Averages (after outlier removal): Value1=64.21 Value2=79.66 Value3=16.30 Value4=670.88 Value5=20.63 Value6=865.14 
+    2.txt: 1361/1364 valid rows
+      Averages (after outlier removal): Value1=66.11 Value2=80.59 Value3=15.36 Value4=671.73 Value5=19.25 Value6=865.37 
+    3.txt: 1373/1376 valid rows
+      Averages (after outlier removal): Value1=68.92 Value2=83.15 Value3=15.78 Value4=670.06 Value5=19.39 Value6=865.36 
+    4.txt: 1383/1386 valid rows
+      Averages (after outlier removal): Value1=62.74 Value2=79.89 Value3=15.95 Value4=666.72 Value5=19.56 Value6=865.41 
+    5.txt: 1342/1346 valid rows
+      Averages (after outlier removal): Value1=65.80 Value2=80.72 Value3=15.88 Value4=670.77 Value5=19.56 Value6=865.36 
+    6.txt: 1609/1612 valid rows
+      Averages (after outlier removal): Value1=63.10 Value2=80.03 Value3=15.96 Value4=666.72 Value5=17.27 Value6=865.43 
+    7.txt: 2142/2143 valid rows
+      Averages (after outlier removal): Value1=67.40 Value2=81.30 Value3=16.03 Value4=674.08 Value5=17.85 Value6=865.37 
+    8.txt: 1434/1437 valid rows
+      Averages (after outlier removal): Value1=62.25 Value2=79.75 Value3=15.83 Value4=668.44 Value5=18.28 Value6=865.26 
+    9.txt: 1657/1660 valid rows
+      Averages (after outlier removal): Value1=65.75 Value2=80.25 Value3=15.91 Value4=676.08 Value5=18.20 Value6=865.20 
+    Density 160 Averages: Value1=65.00 Value2=80.47 Value3=15.84 Value4=670.23 Value5=18.94 Value6=865.33 
+  Density 180:
+    1.txt: 1288/1292 valid rows
+      Averages (after outlier removal): Value1=160.29 Value2=81.28 Value3=21.14 Value4=694.69 Value5=22.43 Value6=865.23 
+    10.txt: 1313/1317 valid rows
+      Averages (after outlier removal): Value1=163.97 Value2=82.10 Value3=21.07 Value4=695.85 Value5=21.05 Value6=865.03 
+    2.txt: 1323/1327 valid rows
+      Averages (after outlier removal): Value1=169.32 Value2=81.82 Value3=21.49 Value4=702.01 Value5=22.47 Value6=865.28 
+    3.txt: 1313/1315 valid rows
+      Averages (after outlier removal): Value1=158.18 Value2=81.16 Value3=21.15 Value4=686.61 Value5=22.24 Value6=865.26 
+    4.txt: 1295/1298 valid rows
+      Averages (after outlier removal): Value1=166.33 Value2=81.72 Value3=21.42 Value4=697.34 Value5=21.86 Value6=865.25 
+    5.txt: 1847/1849 valid rows
+      Averages (after outlier removal): Value1=160.06 Value2=81.27 Value3=21.23 Value4=700.65 Value5=21.78 Value6=865.26 
+    6.txt: 1279/1283 valid rows
+      Averages (after outlier removal): Value1=168.97 Value2=81.53 Value3=21.71 Value4=702.81 Value5=21.79 Value6=865.24 
+    7.txt: 1277/1280 valid rows
+      Averages (after outlier removal): Value1=156.71 Value2=81.35 Value3=20.94 Value4=697.42 Value5=21.70 Value6=865.20 
+    8.txt: 1476/1481 valid rows
+      Averages (after outlier removal): Value1=166.31 Value2=81.73 Value3=21.21 Value4=697.47 Value5=21.71 Value6=865.26 
+    9.txt: 1301/1303 valid rows
+      Averages (after outlier removal): Value1=154.43 Value2=81.92 Value3=20.75 Value4=698.66 Value5=21.14 Value6=865.14 
+    Density 180 Averages: Value1=162.46 Value2=81.59 Value3=21.21 Value4=697.35 Value5=21.82 Value6=865.22 
+  Density 200:
+    1.txt: 1311/1317 valid rows
+      Averages (after outlier removal): Value1=372.64 Value2=78.37 Value3=42.46 Value4=685.78 Value5=38.44 Value6=864.71 
+    10.txt: 1314/1319 valid rows
+      Averages (after outlier removal): Value1=357.80 Value2=76.89 Value3=41.71 Value4=677.67 Value5=36.92 Value6=864.25 
+    2.txt: 1446/1452 valid rows
+      Averages (after outlier removal): Value1=389.08 Value2=78.21 Value3=43.71 Value4=679.98 Value5=38.49 Value6=864.63 
+    3.txt: 1983/1986 valid rows
+      Averages (after outlier removal): Value1=366.20 Value2=77.94 Value3=42.28 Value4=678.17 Value5=38.27 Value6=864.51 
+    4.txt: 2063/2068 valid rows
+      Averages (after outlier removal): Value1=387.57 Value2=77.77 Value3=45.19 Value4=685.14 Value5=38.67 Value6=864.44 
+    5.txt: 1644/1648 valid rows
+      Averages (after outlier removal): Value1=363.28 Value2=77.39 Value3=43.13 Value4=681.02 Value5=38.01 Value6=864.44 
+    6.txt: 1702/1705 valid rows
+      Averages (after outlier removal): Value1=382.40 Value2=77.03 Value3=44.77 Value4=683.45 Value5=38.23 Value6=864.25 
+    7.txt: 1266/1269 valid rows
+      Averages (after outlier removal): Value1=356.08 Value2=76.94 Value3=42.92 Value4=680.16 Value5=37.58 Value6=864.24 
+    8.txt: 1376/1380 valid rows
+      Averages (after outlier removal): Value1=374.83 Value2=77.32 Value3=44.55 Value4=684.14 Value5=37.76 Value6=864.18 
+    9.txt: 1341/1346 valid rows
+      Averages (after outlier removal): Value1=387.66 Value2=77.19 Value3=45.53 Value4=684.94 Value5=38.09 Value6=864.07 
+    Density 200 Averages: Value1=373.75 Value2=77.50 Value3=43.62 Value4=682.05 Value5=38.05 Value6=864.37 
+  Density 220:
+    1.txt: 1215/1218 valid rows
+      Averages (after outlier removal): Value1=701.66 Value2=71.13 Value3=96.40 Value4=641.84 Value5=124.91 Value6=864.46 
+    10.txt: 1248/1251 valid rows
+      Averages (after outlier removal): Value1=730.63 Value2=72.03 Value3=100.41 Value4=648.59 Value5=115.90 Value6=863.90 
+    2.txt: 1278/1282 valid rows
+      Averages (after outlier removal): Value1=734.58 Value2=70.97 Value3=100.75 Value4=643.34 Value5=126.43 Value6=864.44 
+    3.txt: 1363/1368 valid rows
+      Averages (after outlier removal): Value1=703.53 Value2=70.87 Value3=97.30 Value4=640.44 Value5=122.14 Value6=864.50 
+    4.txt: 1241/1244 valid rows
+      Averages (after outlier removal): Value1=694.38 Value2=71.67 Value3=94.80 Value4=641.33 Value5=119.58 Value6=864.66 
+    5.txt: 1247/1250 valid rows
+      Averages (after outlier removal): Value1=725.26 Value2=71.88 Value3=98.77 Value4=645.42 Value5=120.82 Value6=864.75 
+    6.txt: 1245/1250 valid rows
+      Averages (after outlier removal): Value1=693.20 Value2=72.39 Value3=94.67 Value4=643.86 Value5=115.32 Value6=864.88 
+    7.txt: 1240/1244 valid rows
+      Averages (after outlier removal): Value1=727.89 Value2=72.25 Value3=99.70 Value4=644.16 Value5=116.27 Value6=864.87 
+    8.txt: 1374/1379 valid rows
+      Averages (after outlier removal): Value1=691.26 Value2=72.05 Value3=95.63 Value4=643.56 Value5=115.56 Value6=864.73 
+    9.txt: 1267/1271 valid rows
+      Averages (after outlier removal): Value1=690.51 Value2=72.60 Value3=95.67 Value4=646.97 Value5=114.95 Value6=864.26 
+    Density 220 Averages: Value1=709.29 Value2=71.78 Value3=97.41 Value4=643.95 Value5=119.19 Value6=864.54 
+  Density 240:
+    1.txt: 1288/1291 valid rows
+      Averages (after outlier removal): Value1=866.28 Value2=69.53 Value3=192.25 Value4=600.91 Value5=365.33 Value6=862.75 
+    10.txt: 1211/1214 valid rows
+      Averages (after outlier removal): Value1=866.16 Value2=68.63 Value3=202.62 Value4=596.68 Value5=353.65 Value6=863.04 
+    2.txt: 1206/1210 valid rows
+      Averages (after outlier removal): Value1=866.29 Value2=68.82 Value3=188.64 Value4=600.86 Value5=369.43 Value6=862.78 
+    3.txt: 1382/1387 valid rows
+      Averages (after outlier removal): Value1=866.19 Value2=69.08 Value3=196.22 Value4=602.43 Value5=373.28 Value6=862.81 
+    4.txt: 1192/1195 valid rows
+      Averages (after outlier removal): Value1=866.22 Value2=68.28 Value3=188.66 Value4=600.62 Value5=362.47 Value6=862.92 
+    5.txt: 1174/1178 valid rows
+      Averages (after outlier removal): Value1=866.19 Value2=69.13 Value3=194.88 Value4=602.46 Value5=366.77 Value6=862.91 
+    6.txt: 1214/1217 valid rows
+      Averages (after outlier removal): Value1=866.21 Value2=68.36 Value3=188.51 Value4=601.81 Value5=340.05 Value6=862.93 
+    7.txt: 1391/1394 valid rows
+      Averages (after outlier removal): Value1=866.17 Value2=67.56 Value3=185.15 Value4=598.67 Value5=341.33 Value6=862.98 
+    8.txt: 1202/1205 valid rows
+      Averages (after outlier removal): Value1=866.15 Value2=68.33 Value3=195.37 Value4=599.27 Value5=344.66 Value6=862.97 
+    9.txt: 1217/1221 valid rows
+      Averages (after outlier removal): Value1=866.18 Value2=68.42 Value3=199.33 Value4=597.70 Value5=350.25 Value6=863.00 
+    Density 240 Averages: Value1=866.20 Value2=68.61 Value3=193.16 Value4=600.14 Value5=356.72 Value6=862.91 
+  Density 60:
+    1.txt: 1518/1523 valid rows
+      Averages (after outlier removal): Value1=41.87 Value2=66.97 Value3=20.76 Value4=558.07 Value5=24.43 Value6=864.31 
+    10.txt: 1582/1585 valid rows
+      Averages (after outlier removal): Value1=41.86 Value2=67.83 Value3=21.07 Value4=558.79 Value5=24.52 Value6=864.16 
+    2.txt: 1506/1511 valid rows
+      Averages (after outlier removal): Value1=41.84 Value2=67.64 Value3=20.95 Value4=558.49 Value5=24.55 Value6=864.26 
+    3.txt: 1466/1469 valid rows
+      Averages (after outlier removal): Value1=41.80 Value2=67.82 Value3=20.95 Value4=558.69 Value5=24.59 Value6=864.22 
+    4.txt: 1621/1623 valid rows
+      Averages (after outlier removal): Value1=41.78 Value2=67.20 Value3=20.89 Value4=558.61 Value5=24.55 Value6=864.17 
+    5.txt: 1471/1473 valid rows
+      Averages (after outlier removal): Value1=41.96 Value2=67.56 Value3=20.70 Value4=558.88 Value5=24.51 Value6=864.19 
+    6.txt: 1378/1380 valid rows
+      Averages (after outlier removal): Value1=41.86 Value2=67.54 Value3=20.84 Value4=558.64 Value5=24.44 Value6=864.20 
+    7.txt: 1359/1361 valid rows
+      Averages (after outlier removal): Value1=41.70 Value2=68.06 Value3=20.97 Value4=558.68 Value5=24.33 Value6=864.14 
+    8.txt: 1418/1423 valid rows
+      Averages (after outlier removal): Value1=41.79 Value2=67.78 Value3=21.00 Value4=558.83 Value5=24.50 Value6=864.14 
+    9.txt: 1423/1427 valid rows
+      Averages (after outlier removal): Value1=41.71 Value2=67.56 Value3=20.67 Value4=558.63 Value5=24.50 Value6=864.09 
+    Density 60 Averages: Value1=41.82 Value2=67.60 Value3=20.88 Value4=558.63 Value5=24.49 Value6=864.19 
+  Density 80:
+    1.txt: 1402/1405 valid rows
+      Averages (after outlier removal): Value1=42.02 Value2=72.19 Value3=21.36 Value4=569.61 Value5=24.33 Value6=864.10 
+    10.txt: 1379/1384 valid rows
+      Averages (after outlier removal): Value1=42.86 Value2=73.91 Value3=21.44 Value4=571.29 Value5=24.73 Value6=864.09 
+    2.txt: 1401/1405 valid rows
+      Averages (after outlier removal): Value1=42.66 Value2=72.71 Value3=21.66 Value4=570.02 Value5=24.61 Value6=864.08 
+    3.txt: 1410/1412 valid rows
+      Averages (after outlier removal): Value1=42.36 Value2=72.53 Value3=21.46 Value4=570.02 Value5=24.44 Value6=864.00 
+    4.txt: 1548/1551 valid rows
+      Averages (after outlier removal): Value1=39.34 Value2=69.51 Value3=18.08 Value4=567.04 Value5=21.58 Value6=864.08 
+    5.txt: 1359/1364 valid rows
+      Averages (after outlier removal): Value1=41.58 Value2=71.72 Value3=20.68 Value4=569.84 Value5=24.26 Value6=864.01 
+    6.txt: 1858/1862 valid rows
+      Averages (after outlier removal): Value1=39.36 Value2=69.95 Value3=18.34 Value4=567.53 Value5=22.20 Value6=864.03 
+    7.txt: 1377/1380 valid rows
+      Averages (after outlier removal): Value1=41.64 Value2=72.67 Value3=20.57 Value4=569.99 Value5=24.13 Value6=864.10 
+    8.txt: 1367/1371 valid rows
+      Averages (after outlier removal): Value1=42.86 Value2=73.33 Value3=21.56 Value4=571.08 Value5=24.72 Value6=864.06 
+    9.txt: 1387/1392 valid rows
+      Averages (after outlier removal): Value1=42.82 Value2=73.64 Value3=21.54 Value4=571.21 Value5=24.76 Value6=864.05 
+    Density 80 Averages: Value1=41.75 Value2=72.21 Value3=20.67 Value4=569.76 Value5=23.98 Value6=864.06 
+
+  manvat Summary: 99 files processed
+  manvat Overall Averages: Value1=237.18 Value2=73.31 Value3=46.46 Value4=623.56 Value5=66.61 Value6=864.63 
+
+Folder: manvat 2
+----------------------------------------
+  Density 100:
+    1.txt: 1740/1742 valid rows
+      Averages (after outlier removal): Value1=58.37 Value2=44.48 Value3=13.39 Value4=564.41 Value5=67.22 Value6=859.10 
+    2.txt: 654/658 valid rows
+      Averages (after outlier removal): Value1=57.93 Value2=44.34 Value3=12.94 Value4=563.95 Value5=66.95 Value6=854.48 
+    3.txt: 700/702 valid rows
+      Averages (after outlier removal): Value1=58.09 Value2=45.62 Value3=12.99 Value4=564.88 Value5=67.07 Value6=854.69 
+    4.txt: 1018/1022 valid rows
+      Averages (after outlier removal): Value1=57.42 Value2=44.69 Value3=12.71 Value4=562.85 Value5=66.79 Value6=834.13 
+    5.txt: 1412/1416 valid rows
+      Averages (after outlier removal): Value1=56.62 Value2=45.28 Value3=13.57 Value4=563.79 Value5=63.20 Value6=859.76 
+    6.txt: 727/730 valid rows
+      Averages (after outlier removal): Value1=56.43 Value2=45.84 Value3=13.80 Value4=564.67 Value5=62.71 Value6=859.86 
+    Density 100 Averages: Value1=57.48 Value2=45.04 Value3=13.23 Value4=564.09 Value5=65.66 Value6=853.67 
+  Density 120:
+    1.txt: 709/712 valid rows
+      Averages (after outlier removal): Value1=54.56 Value2=49.32 Value3=14.45 Value4=568.41 Value5=63.89 Value6=866.15 
+    2.txt: 679/682 valid rows
+      Averages (after outlier removal): Value1=54.41 Value2=51.45 Value3=14.51 Value4=569.92 Value5=63.92 Value6=866.00 
+    3.txt: 885/888 valid rows
+      Averages (after outlier removal): Value1=53.79 Value2=51.86 Value3=14.46 Value4=571.60 Value5=63.95 Value6=865.92 
+    4.txt: 689/691 valid rows
+      Averages (after outlier removal): Value1=54.50 Value2=52.11 Value3=14.47 Value4=572.11 Value5=63.89 Value6=865.85 
+    5.txt: 698/701 valid rows
+      Averages (after outlier removal): Value1=53.75 Value2=51.74 Value3=14.58 Value4=570.23 Value5=64.02 Value6=865.87 
+    6.txt: 1032/1035 valid rows
+      Averages (after outlier removal): Value1=53.69 Value2=52.85 Value3=14.53 Value4=569.29 Value5=63.99 Value6=865.79 
+    Density 120 Averages: Value1=54.12 Value2=51.56 Value3=14.50 Value4=570.26 Value5=63.94 Value6=865.93 
+  Density 140:
+    1.txt: 934/938 valid rows
+      Averages (after outlier removal): Value1=54.66 Value2=53.73 Value3=15.18 Value4=580.86 Value5=63.88 Value6=865.66 
+    2.txt: 786/790 valid rows
+      Averages (after outlier removal): Value1=56.01 Value2=54.40 Value3=15.18 Value4=582.26 Value5=64.09 Value6=865.53 
+    3.txt: 646/649 valid rows
+      Averages (after outlier removal): Value1=55.40 Value2=55.03 Value3=15.11 Value4=584.84 Value5=64.10 Value6=865.52 
+    4.txt: 708/712 valid rows
+      Averages (after outlier removal): Value1=54.82 Value2=55.39 Value3=15.16 Value4=587.41 Value5=64.12 Value6=865.48 
+    5.txt: 886/889 valid rows
+      Averages (after outlier removal): Value1=54.16 Value2=55.21 Value3=15.11 Value4=588.19 Value5=64.17 Value6=865.35 
+    6.txt: 710/713 valid rows
+      Averages (after outlier removal): Value1=54.91 Value2=56.25 Value3=15.07 Value4=588.47 Value5=64.02 Value6=865.39 
+    Density 140 Averages: Value1=54.99 Value2=55.00 Value3=15.14 Value4=585.34 Value5=64.06 Value6=865.49 
+  Density 160:
+    1.txt: 1058/1061 valid rows
+      Averages (after outlier removal): Value1=58.20 Value2=57.37 Value3=14.58 Value4=593.29 Value5=65.16 Value6=865.20 
+    2.txt: 722/726 valid rows
+      Averages (after outlier removal): Value1=58.00 Value2=57.87 Value3=14.32 Value4=596.09 Value5=64.85 Value6=865.15 
+    3.txt: 901/905 valid rows
+      Averages (after outlier removal): Value1=58.53 Value2=58.23 Value3=14.58 Value4=598.41 Value5=64.95 Value6=865.18 
+    4.txt: 844/847 valid rows
+      Averages (after outlier removal): Value1=57.47 Value2=57.28 Value3=15.22 Value4=593.57 Value5=64.93 Value6=865.10 
+    5.txt: 715/718 valid rows
+      Averages (after outlier removal): Value1=57.54 Value2=58.23 Value3=15.22 Value4=597.10 Value5=64.74 Value6=865.11 
+    6.txt: 891/894 valid rows
+      Averages (after outlier removal): Value1=57.66 Value2=58.85 Value3=15.02 Value4=599.01 Value5=64.76 Value6=865.00 
+    Density 160 Averages: Value1=57.90 Value2=57.97 Value3=14.83 Value4=596.25 Value5=64.90 Value6=865.12 
+  Density 180:
+    1.txt: 891/897 valid rows
+      Averages (after outlier removal): Value1=60.80 Value2=63.51 Value3=14.69 Value4=605.29 Value5=64.11 Value6=864.81 
+    2.txt: 679/682 valid rows
+      Averages (after outlier removal): Value1=59.64 Value2=64.13 Value3=15.17 Value4=615.23 Value5=64.12 Value6=864.98 
+    3.txt: 1008/1011 valid rows
+      Averages (after outlier removal): Value1=59.93 Value2=65.42 Value3=15.16 Value4=617.40 Value5=64.00 Value6=864.96 
+    4.txt: 649/651 valid rows
+      Averages (after outlier removal): Value1=60.97 Value2=63.87 Value3=15.19 Value4=606.63 Value5=64.16 Value6=864.74 
+    5.txt: 717/720 valid rows
+      Averages (after outlier removal): Value1=61.28 Value2=64.30 Value3=14.54 Value4=608.18 Value5=64.03 Value6=864.71 
+    6.txt: 709/712 valid rows
+      Averages (after outlier removal): Value1=61.59 Value2=64.77 Value3=14.56 Value4=610.03 Value5=64.02 Value6=864.73 
+    Density 180 Averages: Value1=60.70 Value2=64.33 Value3=14.88 Value4=610.46 Value5=64.08 Value6=864.82 
+  Density 200:
+    1.txt: 2029/2036 valid rows
+      Averages (after outlier removal): Value1=63.75 Value2=66.20 Value3=14.83 Value4=615.62 Value5=64.14 Value6=864.50 
+    2.txt: 632/635 valid rows
+      Averages (after outlier removal): Value1=64.15 Value2=66.09 Value3=14.99 Value4=617.51 Value5=64.35 Value6=864.42 
+    3.txt: 709/712 valid rows
+      Averages (after outlier removal): Value1=64.75 Value2=66.41 Value3=14.88 Value4=620.74 Value5=64.33 Value6=864.36 
+    4.txt: 791/795 valid rows
+      Averages (after outlier removal): Value1=65.20 Value2=66.81 Value3=14.96 Value4=625.29 Value5=64.25 Value6=864.34 
+    5.txt: 784/787 valid rows
+      Averages (after outlier removal): Value1=63.10 Value2=64.63 Value3=14.76 Value4=615.92 Value5=64.25 Value6=864.28 
+    6.txt: 926/930 valid rows
+      Averages (after outlier removal): Value1=64.26 Value2=65.88 Value3=15.35 Value4=620.48 Value5=64.23 Value6=864.31 
+    Density 200 Averages: Value1=64.20 Value2=66.00 Value3=14.96 Value4=619.26 Value5=64.26 Value6=864.37 
+  Density 220:
+    1.txt: 875/880 valid rows
+      Averages (after outlier removal): Value1=68.43 Value2=67.33 Value3=16.04 Value4=630.40 Value5=64.14 Value6=864.22 
+    2.txt: 660/663 valid rows
+      Averages (after outlier removal): Value1=69.52 Value2=67.78 Value3=16.26 Value4=634.05 Value5=64.16 Value6=864.22 
+    3.txt: 774/778 valid rows
+      Averages (after outlier removal): Value1=68.30 Value2=67.15 Value3=15.88 Value4=631.20 Value5=64.33 Value6=864.30 
+    4.txt: 1793/1797 valid rows
+      Averages (after outlier removal): Value1=68.91 Value2=67.46 Value3=15.85 Value4=632.60 Value5=64.23 Value6=864.36 
+    5.txt: 698/702 valid rows
+      Averages (after outlier removal): Value1=67.89 Value2=67.02 Value3=15.92 Value4=627.92 Value5=64.18 Value6=864.23 
+    6.txt: 659/662 valid rows
+      Averages (after outlier removal): Value1=69.44 Value2=67.96 Value3=15.94 Value4=632.16 Value5=64.13 Value6=864.30 
+    Density 220 Averages: Value1=68.75 Value2=67.45 Value3=15.98 Value4=631.39 Value5=64.19 Value6=864.27 
+  Density 240:
+    1.txt: 1540/1544 valid rows
+      Averages (after outlier removal): Value1=71.69 Value2=66.44 Value3=16.04 Value4=634.56 Value5=63.36 Value6=864.26 
+    2.txt: 645/649 valid rows
+      Averages (after outlier removal): Value1=71.44 Value2=67.89 Value3=15.71 Value4=634.03 Value5=63.48 Value6=864.28 
+    3.txt: 665/669 valid rows
+      Averages (after outlier removal): Value1=71.63 Value2=66.12 Value3=16.05 Value4=636.42 Value5=63.33 Value6=864.35 
+    4.txt: 1444/1449 valid rows
+      Averages (after outlier removal): Value1=71.23 Value2=66.05 Value3=16.14 Value4=634.00 Value5=63.20 Value6=864.26 
+    5.txt: 690/693 valid rows
+      Averages (after outlier removal): Value1=70.58 Value2=66.72 Value3=16.10 Value4=635.76 Value5=62.99 Value6=864.18 
+    6.txt: 723/726 valid rows
+      Averages (after outlier removal): Value1=73.00 Value2=67.65 Value3=16.00 Value4=637.89 Value5=62.93 Value6=864.13 
+    Density 240 Averages: Value1=71.59 Value2=66.81 Value3=16.01 Value4=635.44 Value5=63.21 Value6=864.24 
+  Density 60:
+    1.txt: 2595/2598 valid rows
+      Averages (after outlier removal): Value1=54.17 Value2=47.61 Value3=15.75 Value4=560.83 Value5=62.81 Value6=861.42 
+    2.txt: 882/883 valid rows
+      Averages (after outlier removal): Value1=55.11 Value2=47.44 Value3=15.65 Value4=555.58 Value5=62.90 Value6=858.88 
+    3.txt: 649/652 valid rows
+      Averages (after outlier removal): Value1=55.74 Value2=47.20 Value3=15.79 Value4=554.76 Value5=62.87 Value6=860.72 
+    4.txt: 0/0 valid rows
+    5.txt: 679/682 valid rows
+      Averages (after outlier removal): Value1=55.73 Value2=47.75 Value3=15.80 Value4=556.03 Value5=62.89 Value6=857.93 
+    6.txt: 895/897 valid rows
+      Averages (after outlier removal): Value1=55.70 Value2=48.13 Value3=15.74 Value4=557.73 Value5=62.85 Value6=857.25 
+    Density 60 Averages: Value1=55.29 Value2=47.63 Value3=15.75 Value4=556.99 Value5=62.86 Value6=859.24 
+  Density 80:
+    1.txt: 1016/1020 valid rows
+      Averages (after outlier removal): Value1=55.01 Value2=51.36 Value3=15.76 Value4=569.98 Value5=62.42 Value6=864.11 
+    2.txt: 650/653 valid rows
+      Averages (after outlier removal): Value1=55.13 Value2=51.78 Value3=15.73 Value4=572.48 Value5=62.43 Value6=864.14 
+    3.txt: 708/710 valid rows
+      Averages (after outlier removal): Value1=55.05 Value2=52.37 Value3=15.80 Value4=573.57 Value5=62.42 Value6=864.09 
+    4.txt: 679/682 valid rows
+      Averages (after outlier removal): Value1=55.12 Value2=52.92 Value3=15.88 Value4=575.67 Value5=62.43 Value6=864.09 
+    5.txt: 678/679 valid rows
+      Averages (after outlier removal): Value1=55.14 Value2=53.25 Value3=15.99 Value4=575.72 Value5=62.33 Value6=864.05 
+    6.txt: 700/702 valid rows
+      Averages (after outlier removal): Value1=55.16 Value2=53.37 Value3=16.01 Value4=575.73 Value5=62.33 Value6=863.97 
+    Density 80 Averages: Value1=55.10 Value2=52.51 Value3=15.86 Value4=573.86 Value5=62.39 Value6=864.08 
+
+  manvat 2 Summary: 60 files processed
+  manvat 2 Overall Averages: Value1=60.01 Value2=57.43 Value3=15.11 Value4=594.33 Value5=63.96 Value6=863.12 
+
+Folder: taroda_afterChange
+----------------------------------------
+  Density 100:
+    1.txt: 708/713 valid rows
+      Averages (after outlier removal): Value1=27.01 Value2=46.69 Value3=15.58 Value4=589.20 Value5=17.96 Value6=857.38 
+    2.txt: 725/729 valid rows
+      Averages (after outlier removal): Value1=27.00 Value2=46.44 Value3=15.89 Value4=591.21 Value5=18.00 Value6=857.40 
+    3.txt: 947/950 valid rows
+      Averages (after outlier removal): Value1=27.00 Value2=47.08 Value3=16.18 Value4=591.65 Value5=17.84 Value6=857.51 
+    4.txt: 751/756 valid rows
+      Averages (after outlier removal): Value1=27.58 Value2=48.10 Value3=15.62 Value4=590.67 Value5=17.85 Value6=857.48 
+    5.txt: 737/740 valid rows
+      Averages (after outlier removal): Value1=27.66 Value2=48.44 Value3=16.00 Value4=592.52 Value5=17.88 Value6=857.47 
+    6.txt: 695/699 valid rows
+      Averages (after outlier removal): Value1=27.51 Value2=47.97 Value3=15.25 Value4=589.84 Value5=18.00 Value6=857.56 
+    Density 100 Averages: Value1=27.29 Value2=47.45 Value3=15.75 Value4=590.85 Value5=17.92 Value6=857.47 
+  Density 120:
+    1.txt: 931/935 valid rows
+      Averages (after outlier removal): Value1=28.20 Value2=55.17 Value3=14.17 Value4=619.14 Value5=18.00 Value6=857.59 
+    2.txt: 667/670 valid rows
+      Averages (after outlier removal): Value1=28.38 Value2=55.82 Value3=14.17 Value4=620.40 Value5=18.00 Value6=857.67 
+    3.txt: 704/707 valid rows
+      Averages (after outlier removal): Value1=28.09 Value2=53.83 Value3=14.73 Value4=618.51 Value5=18.00 Value6=857.75 
+    4.txt: 737/740 valid rows
+      Averages (after outlier removal): Value1=28.09 Value2=53.91 Value3=15.37 Value4=620.12 Value5=18.00 Value6=857.72 
+    5.txt: 678/681 valid rows
+      Averages (after outlier removal): Value1=27.83 Value2=52.40 Value3=15.00 Value4=614.70 Value5=18.00 Value6=857.74 
+    6.txt: 742/745 valid rows
+      Averages (after outlier removal): Value1=27.71 Value2=52.72 Value3=15.00 Value4=615.82 Value5=18.00 Value6=857.71 
+    Density 120 Averages: Value1=28.05 Value2=53.97 Value3=14.74 Value4=618.12 Value5=18.00 Value6=857.70 
+  Density 140:
+    1.txt: 824/828 valid rows
+      Averages (after outlier removal): Value1=30.53 Value2=60.11 Value3=16.13 Value4=644.61 Value5=18.00 Value6=857.80 
+    2.txt: 720/722 valid rows
+      Averages (after outlier removal): Value1=30.72 Value2=61.70 Value3=15.16 Value4=646.84 Value5=18.00 Value6=857.81 
+    3.txt: 695/699 valid rows
+      Averages (after outlier removal): Value1=30.15 Value2=60.59 Value3=15.32 Value4=644.39 Value5=18.00 Value6=857.82 
+    4.txt: 709/713 valid rows
+      Averages (after outlier removal): Value1=30.53 Value2=59.87 Value3=15.74 Value4=646.15 Value5=18.00 Value6=857.85 
+    5.txt: 681/686 valid rows
+      Averages (after outlier removal): Value1=29.40 Value2=57.27 Value3=15.00 Value4=634.39 Value5=18.00 Value6=857.80 
+    6.txt: 1071/1075 valid rows
+      Averages (after outlier removal): Value1=29.85 Value2=58.32 Value3=16.00 Value4=635.78 Value5=18.05 Value6=857.85 
+    Density 140 Averages: Value1=30.20 Value2=59.64 Value3=15.56 Value4=642.03 Value5=18.01 Value6=857.82 
+  Density 160:
+    1.txt: 820/823 valid rows
+      Averages (after outlier removal): Value1=40.14 Value2=63.70 Value3=16.35 Value4=683.76 Value5=16.81 Value6=857.76 
+    2.txt: 781/785 valid rows
+      Averages (after outlier removal): Value1=42.47 Value2=65.27 Value3=16.36 Value4=686.35 Value5=16.82 Value6=857.78 
+    3.txt: 731/734 valid rows
+      Averages (after outlier removal): Value1=36.28 Value2=64.33 Value3=16.00 Value4=674.19 Value5=16.86 Value6=857.78 
+    4.txt: 702/705 valid rows
+      Averages (after outlier removal): Value1=37.77 Value2=65.19 Value3=16.00 Value4=676.55 Value5=16.87 Value6=857.73 
+    5.txt: 410/414 valid rows
+      Averages (after outlier removal): Value1=38.41 Value2=66.31 Value3=16.11 Value4=678.15 Value5=16.88 Value6=857.76 
+    6.txt: 908/912 valid rows
+      Averages (after outlier removal): Value1=35.37 Value2=64.60 Value3=17.00 Value4=671.54 Value5=16.79 Value6=857.72 
+    Density 160 Averages: Value1=38.41 Value2=64.90 Value3=16.30 Value4=678.42 Value5=16.84 Value6=857.75 
+  Density 180:
+    1.txt: 932/936 valid rows
+      Averages (after outlier removal): Value1=64.43 Value2=67.35 Value3=17.64 Value4=711.87 Value5=16.73 Value6=857.64 
+    2.txt: 675/679 valid rows
+      Averages (after outlier removal): Value1=59.87 Value2=66.25 Value3=16.83 Value4=707.50 Value5=16.88 Value6=857.34 
+    3.txt: 698/701 valid rows
+      Averages (after outlier removal): Value1=58.77 Value2=65.23 Value3=16.86 Value4=706.15 Value5=16.86 Value6=857.38 
+    4.txt: 958/960 valid rows
+      Averages (after outlier removal): Value1=55.96 Value2=64.50 Value3=16.80 Value4=703.72 Value5=16.88 Value6=857.48 
+    5.txt: 762/767 valid rows
+      Averages (after outlier removal): Value1=57.39 Value2=65.83 Value3=16.86 Value4=705.53 Value5=16.68 Value6=857.59 
+    6.txt: 1068/1071 valid rows
+      Averages (after outlier removal): Value1=60.39 Value2=66.45 Value3=16.46 Value4=708.42 Value5=16.55 Value6=857.57 
+    Density 180 Averages: Value1=59.47 Value2=65.93 Value3=16.91 Value4=707.20 Value5=16.76 Value6=857.50 
+  Density 200:
+    1.txt: 919/922 valid rows
+      Averages (after outlier removal): Value1=83.25 Value2=70.27 Value3=15.50 Value4=721.37 Value5=16.90 Value6=857.04 
+    2.txt: 1000/1004 valid rows
+      Averages (after outlier removal): Value1=89.26 Value2=71.65 Value3=15.15 Value4=723.71 Value5=16.90 Value6=857.03 
+    3.txt: 736/738 valid rows
+      Averages (after outlier removal): Value1=95.62 Value2=68.94 Value3=17.35 Value4=730.77 Value5=16.89 Value6=857.15 
+    4.txt: 871/875 valid rows
+      Averages (after outlier removal): Value1=85.32 Value2=69.45 Value3=16.72 Value4=725.02 Value5=17.00 Value6=857.10 
+    5.txt: 749/754 valid rows
+      Averages (after outlier removal): Value1=89.44 Value2=69.89 Value3=16.63 Value4=725.91 Value5=17.00 Value6=857.08 
+    6.txt: 840/844 valid rows
+      Averages (after outlier removal): Value1=93.44 Value2=72.50 Value3=14.89 Value4=729.63 Value5=17.00 Value6=857.01 
+    Density 200 Averages: Value1=89.39 Value2=70.45 Value3=16.04 Value4=726.07 Value5=16.95 Value6=857.07 
+  Density 220:
+    1.txt: 789/792 valid rows
+      Averages (after outlier removal): Value1=132.99 Value2=72.16 Value3=15.91 Value4=734.44 Value5=17.88 Value6=856.94 
+    2.txt: 621/625 valid rows
+      Averages (after outlier removal): Value1=121.11 Value2=73.11 Value3=15.01 Value4=732.41 Value5=17.18 Value6=856.89 
+    3.txt: 670/673 valid rows
+      Averages (after outlier removal): Value1=131.62 Value2=74.90 Value3=15.12 Value4=734.07 Value5=17.56 Value6=856.97 
+    4.txt: 696/700 valid rows
+      Averages (after outlier removal): Value1=118.44 Value2=73.86 Value3=15.82 Value4=730.28 Value5=17.38 Value6=856.87 
+    5.txt: 664/666 valid rows
+      Averages (after outlier removal): Value1=125.24 Value2=73.83 Value3=16.23 Value4=732.47 Value5=17.27 Value6=856.86 
+    6.txt: 763/767 valid rows
+      Averages (after outlier removal): Value1=115.74 Value2=73.36 Value3=14.93 Value4=727.93 Value5=17.21 Value6=856.89 
+    Density 220 Averages: Value1=124.19 Value2=73.54 Value3=15.50 Value4=731.93 Value5=17.42 Value6=856.90 
+  Density 240:
+    1.txt: 1013/1017 valid rows
+      Averages (after outlier removal): Value1=233.49 Value2=72.34 Value3=23.52 Value4=736.79 Value5=21.89 Value6=856.91 
+    2.txt: 930/931 valid rows
+      Averages (after outlier removal): Value1=199.85 Value2=71.38 Value3=20.80 Value4=734.96 Value5=20.48 Value6=856.90 
+    3.txt: 614/615 valid rows
+      Averages (after outlier removal): Value1=210.48 Value2=71.14 Value3=21.05 Value4=735.97 Value5=20.40 Value6=856.85 
+    4.txt: 910/912 valid rows
+      Averages (after outlier removal): Value1=189.49 Value2=72.69 Value3=19.15 Value4=734.69 Value5=19.70 Value6=856.76 
+    5.txt: 829/832 valid rows
+      Averages (after outlier removal): Value1=200.45 Value2=73.17 Value3=19.97 Value4=739.45 Value5=19.67 Value6=856.77 
+    6.txt: 636/638 valid rows
+      Averages (after outlier removal): Value1=207.63 Value2=73.49 Value3=20.55 Value4=740.97 Value5=19.65 Value6=856.77 
+    Density 240 Averages: Value1=206.90 Value2=72.37 Value3=20.84 Value4=737.14 Value5=20.30 Value6=856.83 
+  Density 60:
+    1.txt: 829/832 valid rows
+      Averages (after outlier removal): Value1=28.00 Value2=39.32 Value3=16.00 Value4=569.38 Value5=16.00 Value6=855.20 
+    2.txt: 764/768 valid rows
+      Averages (after outlier removal): Value1=28.30 Value2=38.25 Value3=16.00 Value4=570.21 Value5=16.91 Value6=855.25 
+    3.txt: 653/658 valid rows
+      Averages (after outlier removal): Value1=26.81 Value2=38.16 Value3=17.81 Value4=575.04 Value5=16.00 Value6=857.73 
+    4.txt: 759/761 valid rows
+      Averages (after outlier removal): Value1=30.49 Value2=37.87 Value3=17.36 Value4=571.01 Value5=16.00 Value6=857.75 
+    5.txt: 702/704 valid rows
+      Averages (after outlier removal): Value1=27.11 Value2=38.96 Value3=18.32 Value4=570.66 Value5=16.00 Value6=857.61 
+    6.txt: 651/653 valid rows
+      Averages (after outlier removal): Value1=27.14 Value2=39.66 Value3=18.45 Value4=572.83 Value5=16.00 Value6=857.58 
+    Density 60 Averages: Value1=27.98 Value2=38.70 Value3=17.32 Value4=571.52 Value5=16.15 Value6=856.85 
+  Density 80:
+    1.txt: 717/720 valid rows
+      Averages (after outlier removal): Value1=26.75 Value2=45.35 Value3=15.87 Value4=573.49 Value5=17.91 Value6=857.73 
+    2.txt: 723/727 valid rows
+      Averages (after outlier removal): Value1=26.50 Value2=43.72 Value3=15.86 Value4=575.92 Value5=17.62 Value6=857.75 
+    3.txt: 750/754 valid rows
+      Averages (after outlier removal): Value1=26.53 Value2=42.80 Value3=14.91 Value4=573.07 Value5=17.52 Value6=857.75 
+    4.txt: 823/827 valid rows
+      Averages (after outlier removal): Value1=26.64 Value2=42.67 Value3=14.62 Value4=572.69 Value5=17.50 Value6=857.76 
+    5.txt: 700/704 valid rows
+      Averages (after outlier removal): Value1=26.91 Value2=42.37 Value3=16.00 Value4=572.65 Value5=17.83 Value6=857.65 
+    6.txt: 726/729 valid rows
+      Averages (after outlier removal): Value1=26.91 Value2=42.40 Value3=15.96 Value4=574.97 Value5=17.83 Value6=857.47 
+    Density 80 Averages: Value1=26.71 Value2=43.22 Value3=15.54 Value4=573.80 Value5=17.70 Value6=857.69 
+
+  taroda_afterChange Summary: 60 files processed
+  taroda_afterChange Overall Averages: Value1=65.86 Value2=59.02 Value3=16.45 Value4=657.71 Value5=17.60 Value6=857.36 
+
+Folder: ujawala_phata_afterChange
+----------------------------------------
+  Density 100:
+    1.txt: 601/606 valid rows
+      Averages (after outlier removal): Value1=150.54 Value2=93.95 Value3=36.97 Value4=663.85 Value5=54.09 Value6=851.62 
+    2.txt: 614/617 valid rows
+      Averages (after outlier removal): Value1=147.92 Value2=95.47 Value3=35.69 Value4=660.32 Value5=51.01 Value6=851.88 
+    3.txt: 605/609 valid rows
+      Averages (after outlier removal): Value1=144.60 Value2=94.34 Value3=35.07 Value4=661.90 Value5=50.03 Value6=852.01 
+    4.txt: 586/588 valid rows
+      Averages (after outlier removal): Value1=155.50 Value2=103.04 Value3=34.93 Value4=661.05 Value5=48.17 Value6=852.43 
+    5.txt: 623/627 valid rows
+      Averages (after outlier removal): Value1=154.61 Value2=101.37 Value3=34.69 Value4=664.79 Value5=47.60 Value6=852.47 
+    Density 100 Averages: Value1=150.63 Value2=97.63 Value3=35.47 Value4=662.38 Value5=50.18 Value6=852.08 
+  Density 120:
+    1.txt: 613/616 valid rows
+      Averages (after outlier removal): Value1=128.74 Value2=59.89 Value3=34.49 Value4=683.63 Value5=46.31 Value6=851.51 
+    2.txt: 993/997 valid rows
+      Averages (after outlier removal): Value1=132.35 Value2=61.82 Value3=34.73 Value4=686.55 Value5=46.28 Value6=851.47 
+    3.txt: 606/609 valid rows
+      Averages (after outlier removal): Value1=127.10 Value2=62.06 Value3=34.40 Value4=679.33 Value5=46.10 Value6=851.45 
+    4.txt: 618/621 valid rows
+      Averages (after outlier removal): Value1=130.37 Value2=62.10 Value3=34.33 Value4=681.75 Value5=46.06 Value6=851.39 
+    5.txt: 624/627 valid rows
+      Averages (after outlier removal): Value1=130.71 Value2=61.85 Value3=30.24 Value4=677.38 Value5=45.94 Value6=851.40 
+    6.txt: 688/691 valid rows
+      Averages (after outlier removal): Value1=132.57 Value2=62.70 Value3=32.47 Value4=680.30 Value5=45.96 Value6=851.37 
+    Density 120 Averages: Value1=130.31 Value2=61.74 Value3=33.44 Value4=681.49 Value5=46.11 Value6=851.43 
+  Density 140:
+    1.txt: 1125/1128 valid rows
+      Averages (after outlier removal): Value1=143.99 Value2=62.14 Value3=35.32 Value4=681.72 Value5=45.94 Value6=851.31 
+    2.txt: 621/623 valid rows
+      Averages (after outlier removal): Value1=158.90 Value2=61.79 Value3=35.38 Value4=683.83 Value5=45.94 Value6=851.24 
+    3.txt: 603/607 valid rows
+      Averages (after outlier removal): Value1=155.36 Value2=63.16 Value3=35.34 Value4=677.14 Value5=45.92 Value6=851.21 
+    4.txt: 618/622 valid rows
+      Averages (after outlier removal): Value1=153.07 Value2=63.55 Value3=35.47 Value4=674.70 Value5=45.88 Value6=851.20 
+    5.txt: 691/696 valid rows
+      Averages (after outlier removal): Value1=154.30 Value2=63.67 Value3=34.76 Value4=689.29 Value5=45.85 Value6=851.15 
+    6.txt: 839/842 valid rows
+      Averages (after outlier removal): Value1=159.17 Value2=64.69 Value3=33.68 Value4=693.52 Value5=45.85 Value6=851.09 
+    Density 140 Averages: Value1=154.13 Value2=63.17 Value3=34.99 Value4=683.37 Value5=45.90 Value6=851.20 
+  Density 160:
+    1.txt: 619/625 valid rows
+      Averages (after outlier removal): Value1=179.47 Value2=71.70 Value3=33.37 Value4=686.55 Value5=46.60 Value6=845.49 
+    2.txt: 623/626 valid rows
+      Averages (after outlier removal): Value1=200.07 Value2=83.25 Value3=33.14 Value4=696.44 Value5=46.09 Value6=843.37 
+    3.txt: 651/656 valid rows
+      Averages (after outlier removal): Value1=187.21 Value2=63.52 Value3=34.24 Value4=703.42 Value5=45.70 Value6=839.42 
+    4.txt: 362/366 valid rows
+      Averages (after outlier removal): Value1=194.83 Value2=64.95 Value3=34.01 Value4=706.79 Value5=45.68 Value6=838.84 
+    5.txt: 606/610 valid rows
+      Averages (after outlier removal): Value1=187.01 Value2=63.21 Value3=33.95 Value4=701.28 Value5=45.08 Value6=836.35 
+    6.txt: 693/697 valid rows
+      Averages (after outlier removal): Value1=190.29 Value2=62.68 Value3=32.96 Value4=703.40 Value5=44.98 Value6=834.02 
+    Density 160 Averages: Value1=189.81 Value2=68.22 Value3=33.61 Value4=699.65 Value5=45.69 Value6=839.58 
+  Density 180:
+    1.txt: 632/636 valid rows
+      Averages (after outlier removal): Value1=214.98 Value2=82.88 Value3=31.92 Value4=685.82 Value5=44.78 Value6=837.97 
+    2.txt: 611/615 valid rows
+      Averages (after outlier removal): Value1=236.39 Value2=84.62 Value3=32.33 Value4=693.36 Value5=44.84 Value6=835.74 
+    3.txt: 644/647 valid rows
+      Averages (after outlier removal): Value1=240.04 Value2=85.18 Value3=33.91 Value4=692.61 Value5=45.08 Value6=830.78 
+    4.txt: 631/633 valid rows
+      Averages (after outlier removal): Value1=244.90 Value2=86.76 Value3=32.37 Value4=697.61 Value5=45.04 Value6=834.28 
+    5.txt: 585/588 valid rows
+      Averages (after outlier removal): Value1=248.32 Value2=89.01 Value3=32.73 Value4=702.08 Value5=45.11 Value6=834.22 
+    6.txt: 619/623 valid rows
+      Averages (after outlier removal): Value1=245.86 Value2=92.16 Value3=31.34 Value4=696.38 Value5=45.11 Value6=832.41 
+    Density 180 Averages: Value1=238.41 Value2=86.77 Value3=32.43 Value4=694.64 Value5=44.99 Value6=834.23 
+  Density 200:
+    1.txt: 620/625 valid rows
+      Averages (after outlier removal): Value1=259.93 Value2=67.46 Value3=42.33 Value4=688.83 Value5=54.00 Value6=848.01 
+    2.txt: 642/647 valid rows
+      Averages (after outlier removal): Value1=283.31 Value2=68.63 Value3=41.89 Value4=696.08 Value5=53.74 Value6=848.14 
+    3.txt: 644/648 valid rows
+      Averages (after outlier removal): Value1=285.58 Value2=67.54 Value3=40.47 Value4=699.95 Value5=53.86 Value6=848.20 
+    4.txt: 649/654 valid rows
+      Averages (after outlier removal): Value1=288.12 Value2=68.92 Value3=40.95 Value4=697.57 Value5=53.71 Value6=848.21 
+    5.txt: 688/693 valid rows
+      Averages (after outlier removal): Value1=288.00 Value2=69.14 Value3=39.53 Value4=670.14 Value5=53.87 Value6=848.27 
+    6.txt: 1115/1120 valid rows
+      Averages (after outlier removal): Value1=291.58 Value2=69.47 Value3=40.87 Value4=706.59 Value5=53.82 Value6=848.26 
+    Density 200 Averages: Value1=282.75 Value2=68.53 Value3=41.01 Value4=693.19 Value5=53.83 Value6=848.18 
+  Density 220:
+    1.txt: 591/597 valid rows
+      Averages (after outlier removal): Value1=303.67 Value2=69.15 Value3=40.27 Value4=697.36 Value5=55.84 Value6=847.79 
+    2.txt: 685/687 valid rows
+      Averages (after outlier removal): Value1=309.03 Value2=67.82 Value3=42.33 Value4=701.27 Value5=55.63 Value6=848.03 
+    3.txt: 606/612 valid rows
+      Averages (after outlier removal): Value1=319.73 Value2=89.10 Value3=49.40 Value4=687.91 Value5=66.58 Value6=854.93 
+    4.txt: 654/659 valid rows
+      Averages (after outlier removal): Value1=302.74 Value2=86.30 Value3=45.77 Value4=687.30 Value5=58.07 Value6=854.94 
+    5.txt: 759/761 valid rows
+      Averages (after outlier removal): Value1=312.04 Value2=89.63 Value3=46.91 Value4=680.06 Value5=57.30 Value6=854.96 
+    6.txt: 639/645 valid rows
+      Averages (after outlier removal): Value1=319.80 Value2=88.47 Value3=46.52 Value4=666.73 Value5=57.24 Value6=854.93 
+    Density 220 Averages: Value1=311.17 Value2=81.74 Value3=45.20 Value4=686.77 Value5=58.44 Value6=852.60 
+  Density 240:
+    1.txt: 631/635 valid rows
+      Averages (after outlier removal): Value1=361.01 Value2=87.90 Value3=48.01 Value4=679.49 Value5=66.21 Value6=855.03 
+    2.txt: 606/609 valid rows
+      Averages (after outlier removal): Value1=367.62 Value2=87.03 Value3=47.60 Value4=686.70 Value5=65.27 Value6=854.61 
+    3.txt: 686/690 valid rows
+      Averages (after outlier removal): Value1=359.60 Value2=85.75 Value3=46.64 Value4=675.92 Value5=64.47 Value6=854.48 
+    4.txt: 690/693 valid rows
+      Averages (after outlier removal): Value1=370.56 Value2=87.49 Value3=46.74 Value4=675.65 Value5=64.45 Value6=854.51 
+    5.txt: 641/645 valid rows
+      Averages (after outlier removal): Value1=367.36 Value2=86.78 Value3=47.11 Value4=680.87 Value5=64.64 Value6=854.49 
+    6.txt: 702/707 valid rows
+      Averages (after outlier removal): Value1=377.05 Value2=88.37 Value3=47.39 Value4=685.84 Value5=64.42 Value6=854.49 
+    Density 240 Averages: Value1=367.20 Value2=87.22 Value3=47.25 Value4=680.75 Value5=64.91 Value6=854.60 
+  Density 60:
+    1.txt: 696/698 valid rows
+      Averages (after outlier removal): Value1=104.01 Value2=50.30 Value3=34.74 Value4=606.00 Value5=57.60 Value6=852.21 
+    2.txt: 686/689 valid rows
+      Averages (after outlier removal): Value1=106.92 Value2=53.87 Value3=35.88 Value4=610.70 Value5=57.98 Value6=853.67 
+    3.txt: 701/704 valid rows
+      Averages (after outlier removal): Value1=113.20 Value2=47.50 Value3=43.45 Value4=596.74 Value5=63.87 Value6=838.76 
+    4.txt: 615/619 valid rows
+      Averages (after outlier removal): Value1=112.94 Value2=46.87 Value3=42.67 Value4=596.69 Value5=52.72 Value6=847.96 
+    5.txt: 630/635 valid rows
+      Averages (after outlier removal): Value1=109.52 Value2=44.49 Value3=43.64 Value4=591.35 Value5=51.15 Value6=844.85 
+    6.txt: 617/621 valid rows
+      Averages (after outlier removal): Value1=111.62 Value2=45.72 Value3=42.98 Value4=596.24 Value5=51.00 Value6=847.63 
+    Density 60 Averages: Value1=109.70 Value2=48.13 Value3=40.56 Value4=599.62 Value5=55.72 Value6=847.51 
+  Density 80:
+    1.txt: 687/693 valid rows
+      Averages (after outlier removal): Value1=109.29 Value2=51.07 Value3=42.84 Value4=635.43 Value5=49.94 Value6=818.55 
+    2.txt: 595/597 valid rows
+      Averages (after outlier removal): Value1=108.73 Value2=51.97 Value3=43.01 Value4=642.26 Value5=49.24 Value6=834.90 
+    3.txt: 645/650 valid rows
+      Averages (after outlier removal): Value1=108.43 Value2=50.38 Value3=43.05 Value4=633.54 Value5=48.16 Value6=831.80 
+    4.txt: 624/628 valid rows
+      Averages (after outlier removal): Value1=107.81 Value2=51.46 Value3=42.86 Value4=640.69 Value5=48.00 Value6=831.37 
+    5.txt: 685/690 valid rows
+      Averages (after outlier removal): Value1=111.04 Value2=51.16 Value3=43.15 Value4=607.02 Value5=51.33 Value6=835.01 
+    6.txt: 651/656 valid rows
+      Averages (after outlier removal): Value1=111.05 Value2=53.34 Value3=43.40 Value4=615.77 Value5=51.50 Value6=845.97 
+    Density 80 Averages: Value1=109.39 Value2=51.56 Value3=43.05 Value4=629.12 Value5=49.70 Value6=832.93 
+
+  ujawala_phata_afterChange Summary: 59 files processed
+  ujawala_phata_afterChange Overall Averages: Value1=204.35 Value2=71.47 Value3=38.70 Value4=671.10 Value5=51.55 Value6=846.44 
+
+Folder: ujwala
+----------------------------------------
+  Density 100:
+    1.txt: 1044/1048 valid rows
+      Averages (after outlier removal): Value1=88.10 Value2=42.38 Value3=20.52 Value4=544.48 Value5=58.44 Value6=747.09 
+    2.txt: 636/639 valid rows
+      Averages (after outlier removal): Value1=88.14 Value2=42.33 Value3=20.55 Value4=545.45 Value5=58.40 Value6=747.31 
+    3.txt: 674/676 valid rows
+      Averages (after outlier removal): Value1=88.00 Value2=42.69 Value3=20.46 Value4=545.93 Value5=58.29 Value6=747.86 
+    4.txt: 893/897 valid rows
+      Averages (after outlier removal): Value1=87.90 Value2=42.56 Value3=20.73 Value4=544.34 Value5=58.19 Value6=751.31 
+    5.txt: 703/706 valid rows
+      Averages (after outlier removal): Value1=88.30 Value2=42.44 Value3=20.82 Value4=545.02 Value5=58.33 Value6=749.64 
+    6.txt: 970/972 valid rows
+      Averages (after outlier removal): Value1=88.39 Value2=42.50 Value3=20.97 Value4=545.49 Value5=58.43 Value6=748.72 
+    Density 100 Averages: Value1=88.14 Value2=42.48 Value3=20.68 Value4=545.12 Value5=58.34 Value6=748.65 
+  Density 120:
+    1.txt: 893/896 valid rows
+      Averages (after outlier removal): Value1=88.75 Value2=45.51 Value3=20.28 Value4=551.28 Value5=58.71 Value6=787.71 
+    2.txt: 1205/1207 valid rows
+      Averages (after outlier removal): Value1=88.65 Value2=45.49 Value3=20.18 Value4=552.24 Value5=58.71 Value6=786.51 
+    3.txt: 644/647 valid rows
+      Averages (after outlier removal): Value1=88.53 Value2=45.79 Value3=20.01 Value4=552.82 Value5=58.69 Value6=788.28 
+    4.txt: 789/792 valid rows
+      Averages (after outlier removal): Value1=88.49 Value2=46.06 Value3=19.78 Value4=553.27 Value5=58.64 Value6=789.39 
+    5.txt: 762/764 valid rows
+      Averages (after outlier removal): Value1=89.18 Value2=45.42 Value3=20.28 Value4=551.44 Value5=58.39 Value6=797.66 
+    6.txt: 865/868 valid rows
+      Averages (after outlier removal): Value1=89.36 Value2=45.81 Value3=20.49 Value4=552.20 Value5=58.51 Value6=797.97 
+    Density 120 Averages: Value1=88.83 Value2=45.68 Value3=20.17 Value4=552.21 Value5=58.61 Value6=791.25 
+  Density 140:
+    1.txt: 866/872 valid rows
+      Averages (after outlier removal): Value1=88.32 Value2=48.45 Value3=20.73 Value4=556.45 Value5=58.34 Value6=728.40 
+    2.txt: 799/802 valid rows
+      Averages (after outlier removal): Value1=88.35 Value2=48.89 Value3=20.97 Value4=557.39 Value5=58.29 Value6=725.67 
+    3.txt: 903/906 valid rows
+      Averages (after outlier removal): Value1=88.38 Value2=48.92 Value3=20.97 Value4=557.85 Value5=58.33 Value6=724.48 
+    4.txt: 716/718 valid rows
+      Averages (after outlier removal): Value1=88.20 Value2=48.82 Value3=21.20 Value4=555.35 Value5=58.13 Value6=736.74 
+    5.txt: 666/668 valid rows
+      Averages (after outlier removal): Value1=88.22 Value2=48.80 Value3=21.10 Value4=556.14 Value5=58.15 Value6=734.89 
+    6.txt: 858/861 valid rows
+      Averages (after outlier removal): Value1=88.22 Value2=49.12 Value3=21.11 Value4=556.71 Value5=58.13 Value6=736.33 
+    Density 140 Averages: Value1=88.28 Value2=48.83 Value3=21.01 Value4=556.65 Value5=58.23 Value6=731.08 
+  Density 160:
+    1.txt: 890/894 valid rows
+      Averages (after outlier removal): Value1=88.25 Value2=50.77 Value3=20.88 Value4=560.39 Value5=58.04 Value6=744.33 
+    2.txt: 646/651 valid rows
+      Averages (after outlier removal): Value1=88.19 Value2=51.53 Value3=20.97 Value4=561.53 Value5=58.00 Value6=745.73 
+    3.txt: 700/704 valid rows
+      Averages (after outlier removal): Value1=88.18 Value2=51.32 Value3=20.91 Value4=564.43 Value5=58.01 Value6=745.69 
+    4.txt: 646/649 valid rows
+      Averages (after outlier removal): Value1=88.22 Value2=50.93 Value3=20.28 Value4=562.25 Value5=58.17 Value6=745.84 
+    5.txt: 749/753 valid rows
+      Averages (after outlier removal): Value1=88.18 Value2=51.00 Value3=20.25 Value4=563.32 Value5=58.17 Value6=744.10 
+    6.txt: 985/989 valid rows
+      Averages (after outlier removal): Value1=88.18 Value2=51.26 Value3=20.40 Value4=563.37 Value5=58.14 Value6=738.45 
+    Density 160 Averages: Value1=88.20 Value2=51.14 Value3=20.61 Value4=562.55 Value5=58.09 Value6=744.02 
+  Density 180:
+    1.txt: 886/890 valid rows
+      Averages (after outlier removal): Value1=88.22 Value2=52.69 Value3=19.80 Value4=567.87 Value5=58.20 Value6=754.65 
+    2.txt: 708/709 valid rows
+      Averages (after outlier removal): Value1=88.33 Value2=53.24 Value3=19.80 Value4=568.85 Value5=58.13 Value6=755.08 
+    3.txt: 939/944 valid rows
+      Averages (after outlier removal): Value1=88.44 Value2=53.32 Value3=20.05 Value4=569.54 Value5=58.24 Value6=756.21 
+    4.txt: 681/684 valid rows
+      Averages (after outlier removal): Value1=88.45 Value2=53.56 Value3=20.40 Value4=572.43 Value5=58.24 Value6=755.92 
+    5.txt: 1643/1646 valid rows
+      Averages (after outlier removal): Value1=88.49 Value2=53.42 Value3=20.31 Value4=571.63 Value5=58.24 Value6=755.33 
+    6.txt: 1250/1252 valid rows
+      Averages (after outlier removal): Value1=88.43 Value2=53.16 Value3=19.69 Value4=570.13 Value5=58.16 Value6=755.26 
+    Density 180 Averages: Value1=88.39 Value2=53.23 Value3=20.01 Value4=570.08 Value5=58.20 Value6=755.41 
+  Density 200:
+    1.txt: 897/901 valid rows
+      Averages (after outlier removal): Value1=88.58 Value2=55.45 Value3=21.19 Value4=571.58 Value5=58.12 Value6=764.98 
+    2.txt: 658/661 valid rows
+      Averages (after outlier removal): Value1=88.56 Value2=55.97 Value3=21.26 Value4=572.78 Value5=58.07 Value6=763.20 
+    3.txt: 769/773 valid rows
+      Averages (after outlier removal): Value1=88.54 Value2=55.75 Value3=21.30 Value4=576.31 Value5=58.08 Value6=765.77 
+    4.txt: 714/717 valid rows
+      Averages (after outlier removal): Value1=88.40 Value2=55.44 Value3=21.08 Value4=578.55 Value5=58.03 Value6=766.56 
+    5.txt: 728/731 valid rows
+      Averages (after outlier removal): Value1=88.24 Value2=55.60 Value3=20.96 Value4=579.84 Value5=57.91 Value6=766.53 
+    6.txt: 733/736 valid rows
+      Averages (after outlier removal): Value1=88.09 Value2=55.26 Value3=20.73 Value4=582.46 Value5=57.91 Value6=767.45 
+    Density 200 Averages: Value1=88.40 Value2=55.58 Value3=21.09 Value4=576.92 Value5=58.02 Value6=765.75 
+  Density 220:
+    1.txt: 998/1000 valid rows
+      Averages (after outlier removal): Value1=87.61 Value2=56.93 Value3=17.98 Value4=591.38 Value5=57.12 Value6=795.24 
+    2.txt: 715/719 valid rows
+      Averages (after outlier removal): Value1=87.55 Value2=57.23 Value3=18.04 Value4=594.23 Value5=57.04 Value6=796.02 
+    3.txt: 1196/1199 valid rows
+      Averages (after outlier removal): Value1=87.49 Value2=57.49 Value3=18.03 Value4=595.62 Value5=57.02 Value6=796.42 
+    4.txt: 833/836 valid rows
+      Averages (after outlier removal): Value1=87.48 Value2=57.51 Value3=18.11 Value4=596.56 Value5=56.98 Value6=797.26 
+    5.txt: 642/646 valid rows
+      Averages (after outlier removal): Value1=87.63 Value2=57.68 Value3=18.00 Value4=597.19 Value5=57.00 Value6=798.17 
+    6.txt: 1166/1169 valid rows
+      Averages (after outlier removal): Value1=87.56 Value2=58.14 Value3=18.00 Value4=597.72 Value5=56.91 Value6=798.74 
+    Density 220 Averages: Value1=87.55 Value2=57.50 Value3=18.03 Value4=595.45 Value5=57.01 Value6=796.98 
+  Density 240:
+    1.txt: 1025/1026 valid rows
+      Averages (after outlier removal): Value1=86.01 Value2=62.73 Value3=20.20 Value4=602.78 Value5=51.53 Value6=839.92 
+    2.txt: 1377/1381 valid rows
+      Averages (after outlier removal): Value1=86.04 Value2=62.95 Value3=19.97 Value4=604.52 Value5=51.49 Value6=846.59 
+    3.txt: 1311/1314 valid rows
+      Averages (after outlier removal): Value1=86.27 Value2=62.43 Value3=20.64 Value4=605.78 Value5=51.51 Value6=850.02 
+    4.txt: 676/680 valid rows
+      Averages (after outlier removal): Value1=86.15 Value2=62.33 Value3=20.47 Value4=606.52 Value5=51.48 Value6=850.54 
+    5.txt: 867/870 valid rows
+      Averages (after outlier removal): Value1=86.24 Value2=62.86 Value3=20.50 Value4=606.55 Value5=51.47 Value6=851.60 
+    6.txt: 1219/1222 valid rows
+      Averages (after outlier removal): Value1=86.21 Value2=62.52 Value3=20.80 Value4=607.80 Value5=51.44 Value6=853.50 
+    Density 240 Averages: Value1=86.15 Value2=62.64 Value3=20.43 Value4=605.66 Value5=51.49 Value6=848.69 
+  Density 60:
+    1.txt: 1551/1553 valid rows
+      Averages (after outlier removal): Value1=87.12 Value2=39.43 Value3=19.14 Value4=524.15 Value5=60.31 Value6=764.52 
+    2.txt: 825/829 valid rows
+      Averages (after outlier removal): Value1=87.10 Value2=38.68 Value3=19.43 Value4=524.44 Value5=60.23 Value6=763.08 
+    3.txt: 638/641 valid rows
+      Averages (after outlier removal): Value1=86.66 Value2=38.13 Value3=19.57 Value4=523.02 Value5=59.93 Value6=762.04 
+    4.txt: 991/995 valid rows
+      Averages (after outlier removal): Value1=84.68 Value2=38.43 Value3=19.75 Value4=522.89 Value5=59.80 Value6=760.96 
+    5.txt: 665/668 valid rows
+      Averages (after outlier removal): Value1=85.03 Value2=39.55 Value3=19.88 Value4=522.92 Value5=59.76 Value6=760.60 
+    6.txt: 693/696 valid rows
+      Averages (after outlier removal): Value1=85.11 Value2=39.72 Value3=19.70 Value4=524.74 Value5=59.72 Value6=759.89 
+    Density 60 Averages: Value1=85.95 Value2=38.99 Value3=19.58 Value4=523.69 Value5=59.96 Value6=761.85 
+  Density 80:
+    1.txt: 899/903 valid rows
+      Averages (after outlier removal): Value1=89.04 Value2=39.95 Value3=21.26 Value4=535.69 Value5=59.41 Value6=696.57 
+    2.txt: 651/654 valid rows
+      Averages (after outlier removal): Value1=89.02 Value2=40.56 Value3=21.23 Value4=536.53 Value5=59.32 Value6=697.94 
+    3.txt: 658/661 valid rows
+      Averages (after outlier removal): Value1=88.66 Value2=42.14 Value3=21.02 Value4=535.01 Value5=59.21 Value6=703.86 
+    4.txt: 646/649 valid rows
+      Averages (after outlier removal): Value1=88.55 Value2=42.17 Value3=21.08 Value4=536.26 Value5=59.16 Value6=696.90 
+    5.txt: 1419/1422 valid rows
+      Averages (after outlier removal): Value1=89.12 Value2=41.14 Value3=20.96 Value4=533.01 Value5=49.27 Value6=694.24 
+    6.txt: 947/951 valid rows
+      Averages (after outlier removal): Value1=88.97 Value2=40.90 Value3=20.69 Value4=534.69 Value5=58.73 Value6=680.66 
+    Density 80 Averages: Value1=88.89 Value2=41.14 Value3=21.04 Value4=535.20 Value5=57.52 Value6=695.03 
+
+  ujwala Summary: 60 files processed
+  ujwala Overall Averages: Value1=87.88 Value2=49.72 Value3=20.26 Value4=562.35 Value5=57.55 Value6=763.87 
+
+
+OVERALL SUMMARY
+========================================
+Total files processed: 638
+Total rows processed: 627400
+Total valid rows: 625182
+Total outliers removed: 14168
+Percentage of valid data: 99.65%
