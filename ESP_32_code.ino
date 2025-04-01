@@ -43,34 +43,37 @@ unsigned long sendDataPrevMillis = 0;
 unsigned long timerDelay = 1000;
 
 void WiFisetup() {
-  WiFi.begin(WIFI_SSID, WIFI_PASSWORD);
-  Serial.print("Connecting to WiFi ..");
-  while (WiFi.status() != WL_CONNECTED) {
-    Serial.print('.');
-    delay(300);
-  }
-  Serial.println(WiFi.localIP());
-  Serial.println();
+    WiFi.begin(WIFI_SSID, WIFI_PASSWORD);
+    Serial.print("Connecting to WiFi ..");
+    while (WiFi.status() != WL_CONNECTED) {
+      Serial.print('.');
+      delay(300);
+    }
+    Serial.println(WiFi.localIP());
+    Serial.println();
 }
 
 
 
 void Databasesetup(){
-  config.api_key = API_KEY;
-  config.database_url = DATABASE_URL;
-  if (Firebase.signUp(&config, &auth, "", "")){
-    Serial.println("Signup OK");
-    signupOK = true;
-  }
-  else{
-    Serial.printf("%s\n", config.signer.signupError.message.c_str());
-  }
-  config.token_status_callback = tokenStatusCallback; 
-  Firebase.begin(&config, &auth);
-  Firebase.reconnectWiFi(true);
-  testPath = "/tempData";
-}
+    config.api_key = API_KEY;
+    config.database_url = DATABASE_URL;
 
+    if (Firebase.signUp(&config, &auth, "", "")){
+
+      Serial.println("Signup OK");
+      signupOK = true;
+
+    }
+    else{
+      Serial.printf("%s\n", config.signer.signupError.message.c_str());
+    }
+
+    config.token_status_callback = tokenStatusCallback; 
+    Firebase.begin(&config, &auth);
+    Firebase.reconnectWiFi(true);
+    testPath = "/tempData";
+}
 
 
 
@@ -84,12 +87,15 @@ void setup(){
  
 }
 
+
+
 void Sensor_read(int y){
 
   Serial.println("Sensor reading....");
+
   for(int n = 0; n<y;n++){
-    Serial.print("sample number : ");
-    Serial.print(n);
+    // Serial.print("sample number : ");
+    // Serial.print(n);
     for (int ledIndex = 0; ledIndex < NUM_LEDS; ledIndex++) {
 
       for (int i = 0; i < NUM_LEDS; i++) {
@@ -103,14 +109,16 @@ void Sensor_read(int y){
       detectorValue[n][ledIndex] = 0.25*analogRead(detectorPins[detectorIndex]);
     }
 
-    Serial.print("[ ");
-    for(int i = 0;i<NUM_LEDS;i++){ 
-     Serial.print(detectorValue[n][i]);
-     Serial.print(",");
-    }
-    Serial.print("]");
-    Serial.println();
+  //   Serial.print("[ ");
+  //   for(int i = 0;i<NUM_LEDS;i++){ 
+  //    Serial.print(detectorValue[n][i]);
+  //    Serial.print(",");
+  //   }
+  //   Serial.print("]");
+  //   Serial.println();
+
   }
+
 }
 
 void resetDetectorValues() {
@@ -124,34 +132,36 @@ void resetDetectorValues() {
 void loop(){
    
   if (Firebase.ready() && (millis() - sendDataPrevMillis > timerDelay || sendDataPrevMillis == 0)){
+
     sendDataPrevMillis = millis();
 
-    if(Firebase.RTDB.getString(&fbdo,"/Start/Details/Number")){
+    if(Firebase.RTDB.getString(&fbdo,"/Initialization/Sample_Size")){
       if(fbdo.dataType() == "int"){
         Num_of_samples = fbdo.intData();
      }  
     }
 
-    if (Firebase.RTDB.getBool(&fbdo, "/Start/Digital/")) {
+    if (Firebase.RTDB.getBool(&fbdo, "/Initialization/Start")) {
       if (fbdo.dataType() == "boolean") {
         Start = fbdo.boolData();
       }
     }
 
     if(Start ==1 && num < Num_of_samples ){
-      Serial.print("Number of samples:   ") ;
-      Serial.println(Num_of_samples)   ; 
-      Firebase.RTDB.setString(&fbdo, "Start/Transmission","Ongoing");
+
+      // Serial.print("Number of samples:   ") ;
+      // Serial.println(Num_of_samples)   ; 
+      Firebase.RTDB.setString(&fbdo, "Initialization/Transmission","Ongoing");
       
       Sensor_read(Num_of_samples);
-      Serial.println("-----Readings DONE ---------");
+      // Serial.println("-----Readings DONE ---------");
 
       for(int i =0;i<Num_of_samples;i++){
 
         //Serial.println("Transmission Ongoing");
         parentPath = testPath+"/"+String(num);
         arr.add(detectorValue[i][0], detectorValue[i][1],detectorValue[i][2],detectorValue[i][3],detectorValue[i][4],detectorValue[i][5]);
-        Serial.printf("Set Jsonarray... %s\n", Firebase.RTDB.setArray(&fbdo, parentPath.c_str(), &arr) ? "ok" : fbdo.errorReason().c_str());
+        // Serial.printf("Set Jsonarray... %s\n", Firebase.RTDB.setArray(&fbdo, parentPath.c_str(), &arr) ? "ok" : fbdo.errorReason().c_str());
       
         num++;
         arr.clear();
@@ -160,8 +170,8 @@ void loop(){
     }
  
     if(Num_of_samples== num){
-      Firebase.RTDB.setBool(&fbdo, "Start/Digital",false);
-      Firebase.RTDB.setString(&fbdo, "Start/Transmission","Done");
+      Firebase.RTDB.setBool(&fbdo, "Initialization/Start",false);
+      Firebase.RTDB.setString(&fbdo, "Initialization/Transmission","Done");
       Serial.println("Transmission Done");
       num=0;
       for (int i = 0; i < NUM_LEDS; i++) {
@@ -170,10 +180,18 @@ void loop(){
       resetDetectorValues();
 
     }
+
+
+
+
+
   } 
 
   if ((WiFi.status() != WL_CONNECTED)){
     Serial.println("Reconnecting to WiFi...");
     WiFisetup();
   }
+
+
+
 }

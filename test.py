@@ -1,3 +1,9 @@
+import os
+os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
+import warnings
+warnings.filterwarnings("ignore")
+import absl.logging
+absl.logging.set_verbosity(absl.logging.ERROR)
 import firebase_admin
 from firebase_admin import credentials, db
 import time
@@ -14,10 +20,13 @@ class FirebaseConnect:
         self.initialize()
 
     def initialize(self):
-        cred = credentials.Certificate(self.cred_path)
-        firebase_admin.initialize_app(cred, {'databaseURL': self.db_url})
-        print("✅ Successfully connected to Firebase Realtime Database")
-
+        try:
+            cred = credentials.Certificate(self.cred_path)
+            firebase_admin.initialize_app(cred, {'databaseURL': self.db_url})
+            print("✅ Successfully connected to Firebase Realtime Database")
+        except Exception as e:
+            print("❌ Failed to initialize Firebase connection.")
+            print(f"Error: {e}")
 
 class Initialize:
 
@@ -62,57 +71,47 @@ def  collect_samples():
         _, _, Start, Status = details.get()
 
         
-
     if Status == "Done":
         details.set()
 
         soil_data_path = f'/{SOIL_DATA_PATH}/{Sample_Name}/'
 
         tempdata = db.reference('/tempdata/').get()
-
         db.reference(soil_data_path).set(tempdata)
-
         db.reference('/tempData/').delete()
 
-        time.sleep(1)
 
-    NPK_computation()
 
-        
-
-    
 
 def NPK_computation():
 
-    Sample_Name = 's'
-
-    
-    model = tf.keras.models.load_model(
-    'soil_prediction_model.h5',
-    custom_objects={'mse': tf.keras.losses.MeanSquaredError()})
-
+    Sample_Name = 'sunshine'
     soil_data_path = f'/{SOIL_DATA_PATH}/{Sample_Name}/'
     resultpath = f'{RESULTS_PATH}/{Sample_Name}/'
+    modelpath = f'{MODEL_PATH}/soil_prediction_model.h5'
 
     data = db.reference(soil_data_path).get()
 
-    for row in data:
-        print(row)
+    if data is None:
+        print(f"❌ Sample name '{Sample_Name}' does not exist in {SOIL_DATA_PATH}.")
+    else:
 
+        print(f"✅ Sample name '{Sample_Name}' found. Proceeding with data...")
 
-    data_array = np.array(data, dtype=float)
+        data_array = np.array(data, dtype=float)
 
-    input = np.mean(data_array, axis=0).reshape(1,-1)
+        input = np.mean(data_array, axis=0).reshape(1,-1)
 
-    predictions = model.predict(input)
+        model = tf.keras.models.load_model(modelpath, custom_objects={'mse': tf.keras.losses.MeanSquaredError()})
 
-    predictions_list = [round(val, 3) for val in predictions[0].tolist()]
+        predictions = model.predict(input)
 
-    print("Model Prediction [N P K]:", predictions_list)
+        predictions_list = [round(val, 3) for val in predictions[0].tolist()]
 
+        print("Model Prediction [N P K]:", predictions_list)
 
-    db.reference(resultpath).set(predictions_list)
-    db.reference(OUTPUT_PATH).set(predictions_list)
+        db.reference(resultpath).set(predictions_list)
+        db.reference(OUTPUT_PATH).set(predictions_list)
 
 
 
