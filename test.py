@@ -33,23 +33,27 @@ class Initialize:
     def __init__(self):
         self.path = INITIALIZATION_PATH
         
-        self.data = {
-            'Sample_Name': 's',
-            'Sample_Size': 1000,
+
+
+
+    def set(self):
+
+        data = {
+            'Sample_Name': 'dummy5',
+            'Sample_Size': 100,
             'Start':True,
             'Status':'Ongoing'
         }
 
-
-    def set(self):
-        db.reference(self.path).set(self.data)
-        print(f"✅ Data set : {self.data}")
+        db.reference(self.path).set(data)
+        print(f"✅ Data set : {data}")
 
 
     def get(self):
         result = db.reference(self.path).get()
         if result:
             array = list(result.values())
+            #print(f'Data set : {result}')
             return array[0],array[1],array[2],array[3]
         
         else:
@@ -59,65 +63,77 @@ class Initialize:
 
 def  collect_samples():
 
-    details = Initialize()
-    details.set()
-    Sample_Name,Sample_Size,Start,Status = details.get()
+    sample = Initialize()
+    sample.set()
+    Sample_Name,Sample_Size,Start,Status = sample.get()
 
-    while Start == False:
+    while Start == False:    
         time.sleep(1)
         
-
+    print(f'Transmisson Status : {Status}')
     while Start and Status == "Ongoing":
-        _, _, Start, Status = details.get()
+        _, _, Start, Status = sample.get()
 
-        
-    if Status == "Done":
-        details.set()
+    if Start == False:
+        print('Transmission Aborted')
+
+    
+    if Start and Status == 'Done':
+
+        print(f'Transmisson Status : {Status}')
+        db.reference('Initialization').set({'Start':False})
 
         soil_data_path = f'/{SOIL_DATA_PATH}/{Sample_Name}/'
 
-        tempdata = db.reference('/tempdata/').get()
+        tempdata = db.reference('/tempData/').get()
         db.reference(soil_data_path).set(tempdata)
         db.reference('/tempData/').delete()
 
 
 
+def NPK_prediction():
 
-def NPK_computation():
+    details = Initialize()
+    Sample_Name,Sample_Size,Start,Status = details.get()
 
-    Sample_Name = 'sunshine'
     soil_data_path = f'/{SOIL_DATA_PATH}/{Sample_Name}/'
     resultpath = f'{RESULTS_PATH}/{Sample_Name}/'
     modelpath = f'{MODEL_PATH}/soil_prediction_model.h5'
 
-    data = db.reference(soil_data_path).get()
+    if Status == 'Ongoing':
+        print('Please wait, gathering samples')
 
-    if data is None:
-        print(f"❌ Sample name '{Sample_Name}' does not exist in {SOIL_DATA_PATH}.")
+
     else:
+        data = db.reference(soil_data_path).get()
 
-        print(f"✅ Sample name '{Sample_Name}' found. Proceeding with data...")
+        if data is None:
+            print(f"❌ Sample name '{Sample_Name}' does not exist in {SOIL_DATA_PATH}.")
+        else:
 
-        data_array = np.array(data, dtype=float)
+            print(f"✅ Sample name '{Sample_Name}' found. Proceeding with data...")
+            print(f"Number of samples {Sample_Size}")
 
-        input = np.mean(data_array, axis=0).reshape(1,-1)
+            data_array = np.array(data, dtype=float)
 
-        model = tf.keras.models.load_model(modelpath, custom_objects={'mse': tf.keras.losses.MeanSquaredError()})
+            input = np.mean(data_array, axis=0).reshape(1,-1)
 
-        predictions = model.predict(input)
+            model = tf.keras.models.load_model(modelpath, custom_objects={'mse': tf.keras.losses.MeanSquaredError()})
 
-        predictions_list = [round(val, 3) for val in predictions[0].tolist()]
+            predictions = model.predict(input)
 
-        print("Model Prediction [N P K]:", predictions_list)
+            predictions_list = [round(val, 3) for val in predictions[0].tolist()]
 
-        db.reference(resultpath).set(predictions_list)
-        db.reference(OUTPUT_PATH).set(predictions_list)
+            print("Model Prediction [N P K]:", predictions_list)
+
+            db.reference(resultpath).set(predictions_list)
+            db.reference(OUTPUT_PATH).set(predictions_list)
 
 
 
 if __name__ == "__main__":
 
     FirebaseConnect()
-    #collect_samples()
-    NPK_computation()
+    collect_samples()
+    #NPK_prediction()
 
