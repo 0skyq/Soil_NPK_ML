@@ -33,17 +33,7 @@ class Initialize:
     def __init__(self):
         self.path = INITIALIZATION_PATH
         
-
-
-
-    def set(self):
-
-        data = {
-            'Sample_Name': 'dummy5',
-            'Sample_Size': 100,
-            'Start':True,
-            'Status':'Ongoing'
-        }
+    def set(self,data):
 
         db.reference(self.path).set(data)
         print(f"✅ Data set : {data}")
@@ -64,7 +54,8 @@ class Initialize:
 def  collect_samples():
 
     sample = Initialize()
-    sample.set()
+    data = { 'Sample_Name': 'dummy5', 'Sample_Size': 100, 'Start':True, 'Status':'Ongoing'}
+    sample.set(data)
     Sample_Name,Sample_Size,Start,Status = sample.get()
 
     while Start == False:    
@@ -81,7 +72,8 @@ def  collect_samples():
     if Start and Status == 'Done':
 
         print(f'Transmisson Status : {Status}')
-        db.reference('Initialization').set({'Start':False})
+        data = { 'Sample_Name': 'dummy5', 'Sample_Size': 100, 'Start':False, 'Status':'Done'}
+        sample.set(data)
 
         soil_data_path = f'/{SOIL_DATA_PATH}/{Sample_Name}/'
 
@@ -135,5 +127,5 @@ if __name__ == "__main__":
 
     FirebaseConnect()
     collect_samples()
-    #NPK_prediction()
+    NPK_prediction()
 
