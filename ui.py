@@ -5,23 +5,34 @@ from tkinter import ttk  # Import ttk for the notebook (tabs)
 import json
 import csv
 from tkinter import filedialog  # Corrected filedialog import
+import firebase_admin
+from firebase_admin import credentials , db
 
-firebaseConfig = {
-    "apiKey": "AIzaSyC7TSOG32sU0uzDHwziTPwpKkStG9gk8PI",
-    "authDomain": "npkdetection.firebaseapp.com",
-    "databaseURL": "https://npkdetection-default-rtdb.firebaseio.com/",
-    "projectId": "npkdetection",
-    "storageBucket": "npkdetection.appspot.com",
-    "messagingSenderId": "392510783096",
-    "appId": "1:392510783096:web:1336efa61f7372ba17378d",
-    "measurementId": "G-EWKL268L7N"
-}
 
-firebase = pyrebase.initialize_app(firebaseConfig)
-db = firebase.database()
+# firebaseConfig = {
+#     "apiKey": "AIzaSyC7TSOG32sU0uzDHwziTPwpKkStG9gk8PI",
+#     "authDomain": "npkdetection.firebaseapp.com",
+#     "databaseURL": "https://npkdetection-default-rtdb.firebaseio.com/",
+#     "projectId": "npkdetection",
+#     "storageBucket": "npkdetection.appspot.com",
+#     "messagingSenderId": "392510783096",
+#     "appId": "1:392510783096:web:1336efa61f7372ba17378d",
+#     "measurementId": "G-EWKL268L7N"
+# }
+# Use raw string to avoid escape character issues
+cred_path = r"D:\IIT Kgp\Sem2\EAL\NPK\npkdetection-firebase-adminsdk-fbsvc-d770d993e9.json"
+
+# Initialize Firebase Admin SDK
+cred = credentials.Certificate(cred_path)
+firebase_admin.initialize_app(cred, {
+    "databaseURL":" https://npkdetection-default-rtdb.firebaseio.com/"
+})
+
+# firebase = pyrebase.initialize_app(firebaseConfig)
+# db = firebase.database()
 
 # Firebase Reference (define it here globally)
-userdata_ref = db.child("Iniliazation")
+userdata_ref = db.reference("Initialization")
 
 # Initialize the Tkinter window
 root = tk.Tk()
@@ -51,6 +62,20 @@ sample_size_label.grid(row=1, column=0, padx=20, pady=20)
 sample_size_entry = tk.Entry(init_frame, font=("Arial", 14), width=20)
 sample_size_entry.grid(row=1, column=1, padx=20, pady=20)
 
+# Status Label
+status_label = tk.Label(init_frame, text="Status", font=("Arial", 14))
+status_label.grid(row=2, column=0, padx=20, pady=20)
+
+# Progress Bar
+progress_var = tk.IntVar()
+progress_bar = ttk.Progressbar(init_frame, orient="horizontal", length=300, mode="determinate", variable=progress_var)
+progress_bar.grid(row=2, column=1, padx=20, pady=20)
+
+# Function to animate progress bar
+def animate_progress():
+    progress_bar.config(mode="indeterminate")
+    progress_bar.start(10)  # Speed of animation
+
 # Function to update Firebase when "Start" is pressed
 def start_process():
     sample_name = sample_name_entry.get()
@@ -65,7 +90,8 @@ def start_process():
         userdata_ref.update({
             "Start": True,
             "Sample_Name": sample_name,
-            "Sample_Size": sample_size
+            "Sample_Size": sample_size,
+            "Status": "Ongoing"
         })
         messagebox.showinfo("Success", "Process started and data saved to Firebase.")
     except Exception as e:
@@ -76,19 +102,47 @@ def stop_process():
     try:
         # Update Firebase
         userdata_ref.update({
-            "Start": False
+            "Start": False,
+            "Status": "Done"
         })
         messagebox.showinfo("Success", "Process stopped and data updated in Firebase.")
     except Exception as e:
         messagebox.showerror("Error", f"Failed to update Firebase: {str(e)}")
 
+# Function to check status from Firebase and update UI
+def check_status():
+    try:
+        status = userdata_ref.child("Status").get()
+        
+        if status == "Ongoing":
+            progress_bar.config(mode="indeterminate")
+            progress_bar.start(10)  # Start animation
+        elif status == "Done":
+            progress_bar.stop()
+            progress_bar.config(mode="determinate")
+            progress_var.set(100)  # Full progress bar
+        else:
+            progress_bar.stop()
+            progress_bar.config(mode="determinate")
+            progress_var.set(0)  # Reset bar
+        
+        # Schedule next check
+        root.after(2000, check_status)
+
+    except Exception as e:
+        messagebox.showerror("Error", f"Failed to retrieve status from Firebase: {str(e)}")
+
+# Start monitoring Firebase status updates
+root.after(1000, check_status)
+
 # Start button to initiate the process
 start_button = tk.Button(init_frame, text="Start", command=start_process, font=("Arial", 14), bg="green", fg="white")
-start_button.grid(row=2, column=0, padx=20, pady=20)
+start_button.grid(row=3, column=0, padx=20, pady=20)
 
 # Stop button to stop the process
 stop_button = tk.Button(init_frame, text="Stop", command=stop_process, font=("Arial", 14), bg="red", fg="white")
-stop_button.grid(row=2, column=1, padx=20, pady=20)
+stop_button.grid(row=3, column=1, padx=20, pady=20)
+
 
 # Create the Results tab
 result_frame = ttk.Frame(notebook)
