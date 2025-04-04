@@ -1,11 +1,14 @@
 from parameters import *
 import numpy as np
 import tensorflow as tf
+from tkinter import filedialog 
+import csv
 
 class Backend:
 
-    def __init__(self, firebase_handler):
+    def __init__(self, firebase_handler, process_handler):
         self.fb = firebase_handler
+        self.process_handler = process_handler
 
     def set(self, data):
         self.fb.user_ref.set(data)
@@ -27,6 +30,7 @@ class Backend:
         print(f'Transmisson Status : {Status}')
         while Status == "Ongoing":
             _, _, _, Status = self.get()
+            self.process_handler.check_status()
 
         if Status == 'Done':
             print(f'Transmisson Status : {Status}')
@@ -36,6 +40,7 @@ class Backend:
             tempdata = self.fb.temp_ref.get()
             self.fb.soil_ref.child(Sample_Name).set(tempdata)
             self.fb.temp_ref.delete()
+
 
 
     def NPK_prediction(self,Sample_Name):
@@ -76,4 +81,22 @@ class Backend:
                 return predictions_list
 
 
+    def download_csv(self,Sample_Name):
 
+        soil_data_ref = self.fb.soil_ref.child(str(Sample_Name))
+        data = soil_data_ref.get()
+
+        data = [row for row in data if isinstance(row, list) and len(row) >= 6]
+
+        if data is None:
+            return 0
+
+        default_filename = f"{Sample_Name}.csv"
+        file_path = filedialog.asksaveasfilename(initialfile=default_filename, defaultextension=".csv", filetypes=[["CSV files", "*.csv"]])
+
+        with open(file_path, 'w', newline='') as csvfile:
+            writer = csv.writer(csvfile)
+            for row in data:
+                writer.writerow(row)
+
+        return 

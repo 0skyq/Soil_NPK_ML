@@ -1,10 +1,12 @@
 import tkinter as tk
 from tkinter import messagebox, ttk
 from parameters import *
-import csv
-from tkinter import filedialog 
+from backend import Backend
+
+
 
 class UI:
+   
     def __init__(self, root, process_handler):
         self.root = root
         self.process_handler = process_handler
@@ -67,11 +69,13 @@ class UI:
 
 
 class ProcessHandler:
-    def __init__(self, firebase_handler, root, ui,base_instance):
+ 
+    def __init__(self, firebase_handler, root, ui):
         self.fb = firebase_handler
         self.root = root
         self.ui = ui 
-        self.Backend = base_instance
+        self.Backend = Backend(firebase_handler, self)
+
 
     def start_process(self):
         Sample_Name = self.ui.sample_name_entry.get()
@@ -88,7 +92,19 @@ class ProcessHandler:
     def stop_process(self):
 
         self.fb.user_ref.update({"Start": False, "Status": "Done"})
+        self.fb.temp_ref.delete()
         messagebox.showinfo("Success", "Process stopped and data updated in Firebase.")
+
+    
+    def check_status(self):
+        Sample_Size = int(self.ui.sample_size_entry.get())
+        tempdata = self.fb.temp_ref.get()
+        temp_length = len(tempdata) if tempdata else 0
+        progress = (temp_length / Sample_Size) * 100 
+        self.ui.progress_var.set(progress)
+        self.root.update_idletasks()  
+
+
 
     def show_soil_data_keys(self):
         try:
@@ -108,48 +124,33 @@ class ProcessHandler:
             messagebox.showerror("Error", f"Failed to fetch Soil Data: {str(e)}")
     
 
-    def handle_option(self, selected_option, key):
+    def handle_option(self, selected_option, Sample_Name):
+
         if selected_option == "Download CSV":
-            self.download_csv(key)
+            try:
+                x = self.Backend.download_csv(Sample_Name)
+                if x == 0:
+                  messagebox.showwarning("No Data", f"No data available for {Sample_Name}.")
+
+            except Exception as e:
+                messagebox.showerror("Error", f"Failed to download CSV: {str(e)}")
+        
         elif selected_option == "Predict NPK":
-            self.print_value(key)
+            try:
+                res = self.Backend.NPK_prediction(Sample_Name)
+
+                if res is not None:
+                    messagebox.showinfo("Value", f"NPK values of {Sample_Name}: [ {', '.join(map(str, res))} ]")
+
+                else:
+                    messagebox.showwarning("No Data", f"No data available for {Sample_Name}.")
+            except Exception as e:
+                messagebox.showerror("Error", f"Failed to fetch data: {str(e)}")
     
-    def download_csv(self, Sample_Name):
-        try:
-            soil_data_ref = self.fb.soil_ref.child(str(Sample_Name))
-            data = soil_data_ref.get()
-            
-            if data is not None:
-                default_filename = f"{Sample_Name}.csv"
-                file_path = filedialog.asksaveasfilename(initialfile=default_filename, defaultextension=".csv", filetypes=[["CSV files", "*.csv"]])
-                if file_path:
-                    with open(file_path, 'w', newline='') as csvfile:
-                        writer = csv.writer(csvfile)
-                        if isinstance(data, dict):
-                            writer.writerow(data.keys())
-                            writer.writerow(data.values())
-                        elif isinstance(data, list):
-                            writer.writerow(["Index", "Value"])
-                            for index, value in enumerate(data):
-                                writer.writerow([index, value])
-                    messagebox.showinfo("Success", f"CSV file saved as {file_path}")
-            else:
-                messagebox.showwarning("No Data", "No data available for this key.")
-        except Exception as e:
-            messagebox.showerror("Error", f"Failed to download CSV: {str(e)}")
+ 
+
     
 
-    def print_value(self, Sample_Name):
-        try:
-            res = self.Backend.NPK_prediction(Sample_Name)
-
-            if res is not None:
-                messagebox.showinfo("Value", f"NPK values of {Sample_Name}: [ {', '.join(map(str, res))} ]")
-
-            else:
-                messagebox.showwarning("No Data", f"No data available for {Sample_Name}.")
-        except Exception as e:
-            messagebox.showerror("Error", f"Failed to fetch data: {str(e)}")
 
      
 
