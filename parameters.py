@@ -1,8 +1,7 @@
-CRED_PATH = r"C:\Users\sanks\Documents\SHERLOCK HOLMES\Mtech Files\fir-demo-22684-firebase-adminsdk-er67w-2e407deab9.json"
-URL = 'https://fir-demo-22684-default-rtdb.firebaseio.com'
+CRED_PATH = r"D:\IIT Kgp\Sem2\EAL\Soil_NPK_ML\npkdetection-firebase-adminsdk-fbsvc-d770d993e9.json"
+URL = 'https://npkdetection-default-rtdb.firebaseio.com/'
 
 INITIALIZATION_PATH = 'Initialization'
-SOIL_DATA_PATH = 'Userdata'
+SOIL_DATA_PATH = 'Soil_Data'
 RESULTS_PATH = 'Results'
-OUTPUT_PATH = 'output'
 MODEL_PATH = 'model'

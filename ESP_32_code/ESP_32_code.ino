@@ -1,13 +1,12 @@
 //sky code with my database
-
 #include <WiFi.h>
 #include <Firebase_ESP_Client.h>
 
 #include "addons/TokenHelper.h"
 #include "addons/RTDBHelper.h"
 
-#define WIFI_SSID "ZZZZZZZZZ"
-#define WIFI_PASSWORD "Suman@123"
+#define WIFI_SSID "SHERLOCK"
+#define WIFI_PASSWORD "00000000"
 
 
 #define API_KEY "AIzaSyB36WzoGSJOtZfYr1RrkhLrevC6nqYX40I"

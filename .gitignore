@@ -1,4 +1,10 @@
 .venv/
+venv/
+.vscode/
+<<<<<<< HEAD
 __pycache__
 npk/
+=======
+__pycache__/
+>>>>>>> f783f0ad78519cf310f5a062a2034b7b5bf4295d
 npkdetection-firebase-adminsdk-fbsvc-d770d993e9.json
