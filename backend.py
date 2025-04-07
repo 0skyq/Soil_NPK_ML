@@ -1,3 +1,7 @@
+import os
+os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
+import absl.logging
+absl.logging.set_verbosity(absl.logging.ERROR)
 from parameters import *
 import numpy as np
 import tensorflow as tf
@@ -58,7 +62,7 @@ class Backend:
             data = soil_data_ref.get()
 
             data = [row for row in data if isinstance(row, list) and len(row) >= 6]
-            print(data)
+            #print(data)
 
             if data is None:
                 print(f"❌ Sample name '{Sample_Name}' does not exist in {SOIL_DATA_PATH} or No values exist in Sample.")
